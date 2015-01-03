@@ -1,0 +1,33 @@
+.time-line-container{
+    padding-top: 32px;
+}
+
+.year-container{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 1px solid #d4d4d4;
+    margin-right: 60px;
+    text-align: center;
+    padding-top: 28px;
+    color: #d4d4d4;
+}
+
+.active-year, .year-container:hover{
+    background-color: #2ac5c6;
+    border: 1px solid #2ac5c6;
+    color: #fff;
+}
+
+.projects-year-active, .projects-year{
+    font-size: 12px;
+}
+
+.projects-year-active{
+    color: #fff;
+}
+
+.projects-year{
+    color: inherit;
+}

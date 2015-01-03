@@ -1,0 +1,28 @@
+<script>
+	$(document).ready(function(){
+		var activeTimelineElement = $('.active-year');
+
+		$('.year-container').on('click', function(){
+			activeTimelineElement.removeClass('active-year');
+			$(this).addClass('active-year');
+			activeTimelineElement = $(this);
+		});
+	});
+</script>
+
+<div class="time-line-container container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-2">
+				<div class="year-container active-year" ui-sref="allPersonalProjects.personal2014">
+					<p class="projects-year">2014</p>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="year-container" ui-sref="allPersonalProjects.personal2015">
+					<p class="projects-year">2015</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

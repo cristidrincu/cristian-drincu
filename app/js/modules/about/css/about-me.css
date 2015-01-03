@@ -1,0 +1,83 @@
+.skills-container{
+    /*border: 1px solid red;*/
+}
+
+.skills-container h1{
+    font-size: 70px;
+    margin:0
+}
+
+.about-container{
+    width: 100%;
+}
+
+.about-me-description-container p{
+    color: #a09e9e;
+    /*color: #666666;*/
+    line-height: 24px;
+}
+
+.my-mission{
+   color:#d7d7d7
+}
+
+.mission-description, .beliefs-description, .skills-description{
+    display:none;
+}
+
+.mission-description, .beliefs-description, .skills-description {
+    padding-top: 20px;
+}
+
+#btn-discover-mission:hover, #btn-discover-beliefs:hover, #btn-discover-skills:hover{
+    cursor: pointer;
+}
+
+#btn-discover-mission, #btn-discover-beliefs, #btn-discover-skills{
+    float: left;
+}
+
+.active-btn{
+    color: #2ac5c6;
+}
+
+.img-container{
+    padding-top: 75px;
+}
+
+.img-container img{
+    float: left;
+}
+
+.img-container h1{
+    position: relative;
+    top:10px;
+    left: 15px;
+}
+
+.description-container{
+    padding-top: 20px;
+}
+
+.highlight-name{
+    color: #2ac5c6;
+}
+
+.highlight{
+    /*color: #2ac5c6;*/
+    /*color: #000;*/
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.skills-timeline{
+    width: 100%;
+    height: 1200px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background-color: #000;
+    z-index: 99;
+}

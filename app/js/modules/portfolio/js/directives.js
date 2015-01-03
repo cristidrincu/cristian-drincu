@@ -1,0 +1,17 @@
+angular.module('cristiandrincu.portfolio.directives', [])
+	.directive('contentLoading', function(){
+			return {
+				restrict: 'A',
+				replace: true,
+				transclude: true,
+				scope: {
+					loading: '=contentLoading'
+				},
+				templateUrl: 'js/modules/portfolio/views/loading.html',
+				link: function(scope, element, attrs){
+					var spinner = new Spinner().spin();
+					var loadingContainer = element.find('.my-loading-spinner-container')[0];
+					loadingContainer.appendChild(spinner.el);
+				}
+			}
+	});

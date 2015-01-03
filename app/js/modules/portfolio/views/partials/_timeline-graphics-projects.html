@@ -1,0 +1,48 @@
+<script>
+	$(document).ready(function(){
+		var activeTimelineElement = $('.active-year');
+
+		$('.year-container').on('click', function(){
+			activeTimelineElement.removeClass('active-year');
+			$(this).addClass('active-year');
+			activeTimelineElement = $(this);
+		});
+	});
+</script>
+
+<div class="time-line-container container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-2">
+				<div class="year-container active-year" ui-sref="allGraphicsProjects.projectsGraphic2007">
+					<p class="projects-year">2007</p>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="year-container" ui-sref="allGraphicsProjects.projectsGraphic2008">
+					<p class="projects-year">2008</p>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="year-container" ui-sref="allGraphicsProjects.projectsGraphic2009">
+					<p class="projects-year">2009</p>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="year-container" ui-sref="allGraphicsProjects.projectsGraphic2010">
+					<p class="projects-year">2010</p>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="year-container" ui-sref="allGraphicsProjects.projectsGraphic2011">
+					<p class="projects-year">2011</p>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="year-container" ui-sref="allGraphicsProjects.projectsGraphic2012">
+					<p class="projects-year">2012</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

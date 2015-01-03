@@ -1,0 +1,21 @@
+.portfolio-container{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.project-title{
+    font-size: 16px;
+}
+
+.container-project-details{
+    margin-top: 25px;
+}
+
+.project-image-container{
+    padding-top: 45px;
+}
+
+.container-team-members-project-detail li{
+    display: inline-block;
+    margin-right: 5px;
+}
