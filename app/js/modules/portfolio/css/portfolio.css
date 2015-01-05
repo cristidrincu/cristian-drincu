@@ -19,3 +19,28 @@
     display: inline-block;
     margin-right: 5px;
 }
+
+.project-teaser-image{
+    border:1px solid #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.project-description-teaser{
+    font-size: 12px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.load-project{
+    width: 97%;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.load-project:hover{
+    background-color: #2ac5c6;
+    border: 1px solid #2ac5c6;
+}

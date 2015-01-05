@@ -17,6 +17,8 @@ app.route('/backend/create-new-project')
 		project.technologiesUsed = req.body.projectTechnologies.split(',');
 		project.projectWebLink = req.body.projectWebLink;
 		project.yearStartingProject = false;
+		project.projectMainImage = '';
+		project.projectTeaserImage = '';
 
 		project.save(function(err){
 			if(err){

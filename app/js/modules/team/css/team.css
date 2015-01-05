@@ -8,7 +8,7 @@
 }
 
 .main-container-team-member{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .container-text-globe{
@@ -49,7 +49,7 @@
 
 .member-description {
     font-size: 13px;
-    color: #a09e9e;
+    color: #333;
 }
 
 .linkedin-target, .linkedin-target:hover{
@@ -68,6 +68,11 @@
 
 .btn-profile-linkedin:hover{
     background-color: #000;
+}
+
+#synopsis-team p, #synopsis-friends p, #synopsis-goal p{
+    color:#333;
+    margin-bottom: 10px;
 }
 
 #synopsis-team, #synopsis-friends, #synopsis-story, #synopsis-goal{

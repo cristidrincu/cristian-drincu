@@ -2,13 +2,19 @@
 
 	<h3 class="project-title">{{ project.name }}</h3>
 	<p style="color: #666; margin-top: -10px; font-size: 12px;">Project type: {{ project.type }}</p>
-	<p style="font-size: 12px">{{ project.description }}</p>
-	<h3 class="project-title">Team members</h3>
 
-	<div ng-repeat="member in project.projectMembers track by $index">
-		<img data-scroll-goto="2" style="float: left; margin-right: 5px; margin-bottom: 5px;" ng-src="img/avatars-team-project/{{ member.avatarImage }}"/>
+	<div style="width: 200px; height: 200px;">
+		<img class="project-teaser-image" ng-src="img/portfolio/web-development/{{ project.projectTeaserImage }}"/>
 	</div>
+
+	<p class="project-description-teaser">{{ project.description }}</p>
+
+	<!--<h3 class="project-title">Team members</h3>-->
+
+	<!--<div ng-repeat="member in project.projectMembers track by $index">-->
+		<!--<img data-scroll-goto="2" style="float: left; margin-right: 5px; margin-bottom: 5px;" ng-src="img/avatars-team-project/{{ member.avatarImage }}"/>-->
+	<!--</div>-->
 	<br class="clearFloats"/>
-	<a style="position: absolute; bottom: 0; left:0" ui-sref="projectDetail( {id: project._id} )" class="btn btn-info">View Project</a>
+	<a style="position: absolute; bottom: 0; left:0" ui-sref="projectDetail( {id: project._id} )" class="btn btn-info load-project">View Project</a>
 
 </div>
