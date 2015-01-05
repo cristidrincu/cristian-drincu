@@ -36,11 +36,6 @@
 
 .load-project{
     width: 97%;
-    background-color: #000;
-    border: 1px solid #000;
-}
-
-.load-project:hover{
     background-color: #2ac5c6;
     border: 1px solid #2ac5c6;
 }

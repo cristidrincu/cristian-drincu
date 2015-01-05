@@ -43,11 +43,6 @@
 .graphics-project, .web-projects{
     width: 80%;
     font-size: 12px;
-    background-color: #2ac5c6;
-    border: 1px solid #2ac5c6;
-}
-
-.graphics-project:hover, .web-projects:hover {
     background-color: #000;
     border: 1px solid #000;
 }
