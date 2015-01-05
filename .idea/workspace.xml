@@ -27,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="portfolio.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/css/portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="1" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="44" column="30" selection-start="727" selection-end="727" vertical-scroll-proportion="0.7875895" vertical-offset="0" max-vertical-offset="838">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sidebar.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/css/sidebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="1" selection-start="932" selection-end="932" vertical-scroll-proportion="0.49876848" vertical-offset="300" max-vertical-offset="1545">
+            <state line="45" column="29" selection-start="904" selection-end="904" vertical-scroll-proportion="-15.576923" vertical-offset="270" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -116,8 +116,8 @@
         <option value="$PROJECT_DIR$/app/js/modules/portfolio/views/web-development/portfolio2010.html" />
         <option value="$PROJECT_DIR$/app/js/modules/portfolio/views/web-development/portfolio2011.html" />
         <option value="$PROJECT_DIR$/app/js/modules/portfolio/views/web-development/portfolio2012.html" />
-        <option value="$PROJECT_DIR$/app/js/modules/portfolio/css/portfolio.css" />
         <option value="$PROJECT_DIR$/app/js/modules/portfolio/css/sidebar.css" />
+        <option value="$PROJECT_DIR$/app/js/modules/portfolio/css/portfolio.css" />
       </list>
     </option>
   </component>
@@ -1396,16 +1396,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/css/portfolio.css">
+    <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/css/sidebar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="1" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+        <state line="45" column="29" selection-start="904" selection-end="904" vertical-scroll-proportion="-15.576923" vertical-offset="270" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/css/sidebar.css">
+    <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/css/portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="1" selection-start="932" selection-end="932" vertical-scroll-proportion="0.49876848" vertical-offset="300" max-vertical-offset="1545">
+        <state line="44" column="30" selection-start="727" selection-end="727" vertical-scroll-proportion="0.7875895" vertical-offset="0" max-vertical-offset="838">
           <folding />
         </state>
       </provider>

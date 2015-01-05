@@ -43,8 +43,7 @@
 .graphics-project, .web-projects{
     width: 80%;
     font-size: 12px;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #2ac5c6;
 }
 
 .container-project-complexity-small, .container-project-complexity-medium, .container-project-complexity-complex{
