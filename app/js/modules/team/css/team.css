@@ -1,5 +1,8 @@
 .team-container{
+    background-color: #000;
     width:100%;
+    min-height: 100%;
+    padding-bottom: 100px;
 }
 
 .globe-container{
@@ -38,7 +41,8 @@
 }
 
 .container-info-team-member h3{
-    color: #2ac5c6;
+    /*color: #2ac5c6;*/
+    color: #afafaf;
     font-weight: normal;
 }
 
@@ -49,7 +53,7 @@
 
 .member-description {
     font-size: 13px;
-    color: #333;
+    color: #afafaf;
 }
 
 .linkedin-target, .linkedin-target:hover{
@@ -60,7 +64,6 @@
 .btn-profile-linkedin{
     width: 100%;
     height: 46px;
-    /*border: 1px solid #2ac5c6;*/
     border: 1px solid #d7d7d7;
     text-align: center;
     padding-top: 12px;
@@ -71,7 +74,7 @@
 }
 
 #synopsis-team p, #synopsis-friends p, #synopsis-goal p{
-    color:#333;
+    color:#afafaf;
     margin-bottom: 10px;
 }
 
