@@ -40,9 +40,9 @@
 								<li>
 									<a data-scroll-nav="3">PORTFOLIO</a>
 								</li>
-								<!--<li><a data-scroll-nav="4">PROJECTS</a></li>-->
-								<!--<li><a href="#">BLOG</a></li>-->
-								<li><a data-scroll-nav="5">CONTACT</a></li>
+								<li>
+									<a data-scroll-nav="4">CONTACT</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -161,18 +161,8 @@
 <div data-scroll-index="3" class="portfolio">
 	<div class="container portfolio-container" ui-view></div>
 </div>
-<!--<div data-scroll-index="4" class="projects">-->
-	<!--<h1>PROJECTS</h1>-->
-	<!--<div class="container projects-container" ui-view="projectsView"></div>-->
-<!--</div>-->
-<div data-scroll-index="5" class="contact">
-	<div class="container contact-container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1>Contact Page</h1>
-			</div>
-		</div>
-	</div>
+<div data-scroll-index="4" class="contact">
+	<div ng-include="'js/modules/contact/views/contact.html'"></div>
 </div>
 
 <script src="lib/jquery/jquery-2.1.3.min.js"></script>
@@ -181,6 +171,7 @@
 <script src="lib/angular/angular-resource.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
 <script src="lib/spinjs/spinjs.js"></script>
+<script src="lib/skype/skype-uri.js"></script>
 
 <script src="js/modules/about/js/controllers.js"></script>
 <script src="js/modules/about/js/directives.js"></script>

@@ -1,4 +1,69 @@
 .contact-container{
     width: 100%;
+    margin-top: 100px;
     min-height: 100%;
+}
+
+.word-of-advice-container {
+    color: #2ac5c6;
+}
+
+.word-of-advice-container h3{
+    font-size: 30px;
+    margin-left: 12px;
+    margin-bottom: -30px;
+}
+
+.word-of-advice-container h1{
+    font-size: 70px;
+}
+
+.word-of-advice-container p {
+    color: #666;
+    font-size: 14px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.rules-contact{
+    margin-top: 30px;
+    position: relative;
+    height: 465px;
+}
+
+.contact-options-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.rules-contact ul {
+    margin-bottom:75px;
+    padding: 0;
+    list-style: none;
+}
+
+.rules-contact ul li {
+    font-size: 13px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.email-container{
+    margin-bottom: 200px;
+}
+
+.teaser-contact-text{
+    font-size: 15px;
+    margin-bottom: -5px;
+}
+
+.skype-address{
+    margin: 0;
+    padding: 0;
+}
+
+.email-address, .skype-address, .linkedin-address{
+    font-size: 20px;
+    color: #2ac5c6;
 }
