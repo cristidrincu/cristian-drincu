@@ -1,0 +1,48 @@
+/*#left-scroll-button {*/
+    /*position: relative;*/
+    /*z-index: 2;*/
+    /*float: left;*/
+    /*margin-left: 30px;*/
+/*}*/
+
+/*#right-scroll-button{*/
+    /*position:relative;*/
+    /*z-index: 2;*/
+    /*float: right;*/
+    /*margin-right: 50px;*/
+/*}*/
+
+.skills-timeline{
+    position: relative;
+    overflow: hidden;
+}
+
+#container-years{
+    position: absolute;
+    width: 5000px;
+}
+
+#skills-2002, #skills-2007, #skills-2012, #skills-2014, #skills-2015{
+    width: 980px;
+    min-height:100%;
+    float: left;
+    /*display: inline-block;*/
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+.skills-year-container{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #2ac5c6;
+    border-radius: 50%;
+    text-align: center;
+    color: #2ac5c6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-year-container p{
+    font-size: 24px;
+    padding-top: 36px;
+}

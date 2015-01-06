@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-	//default element and behaviour;
-
-
 	var selectedElement = $('#btn-discover-mission');
 	selectedElement.addClass('active-btn');
 
@@ -29,7 +26,6 @@ $(document).ready(function(){
 		selectedElement = $(this);
 		selectedElement.addClass('active-btn');
 		$('.slided-element').slideUp();
-		$('.skills-description').stop(true, true).slideDown().show().addClass('slided-element');
 		$('.skills-timeline').stop(true, true).slideDown(1000).show();
 	});
 
