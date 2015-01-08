@@ -1,16 +1,16 @@
-/*#left-scroll-button {*/
-    /*position: relative;*/
-    /*z-index: 2;*/
-    /*float: left;*/
-    /*margin-left: 30px;*/
-/*}*/
+#left-scroll-button {
+    position: relative;
+    z-index: 80;
+    float: left;
+    margin-left: 42px;
+}
 
-/*#right-scroll-button{*/
-    /*position:relative;*/
-    /*z-index: 2;*/
-    /*float: right;*/
-    /*margin-right: 50px;*/
-/*}*/
+#right-scroll-button{
+    position: relative;
+    z-index: 80;
+    float: right;
+    margin-right: 50px;
+}
 
 .skills-timeline{
     position: relative;
@@ -28,21 +28,99 @@
     float: left;
     /*display: inline-block;*/
     /*border: 1px solid red;*/
-    text-align: center;
+    /*text-align: center;*/
+}
+
+.container-year-logo{
+ margin-bottom: 80px;
 }
 
 .skills-year-container{
-    width: 120px;
+    /*width: 120px;*/
     height: 120px;
-    border: 1px solid #2ac5c6;
-    border-radius: 50%;
-    text-align: center;
-    color: #2ac5c6;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40px;
+    /*border: 3px solid #2ac5c6;*/
+    /*border-radius: 50%;*/
+    /*text-align: center;*/
+    /*color: #2ac5c6;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+.skills-year-container h3{
+    font-size: 30px;
+    padding-top: 40px;
+    color: #fff;
 }
 
 .skills-year-container p{
+    width: 80%;
     font-size: 24px;
-    padding-top: 36px;
+}
+
+.container-tech-logo-square, .container-tech-logo-horizontal{
+    text-align: center;
+}
+
+.container-tech-logo-square p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.container-tech-logo-horizontal img{
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+.technology-description{
+    font-size: 12px;
+    line-height: 22px;
+    color: #a0a0a0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#photoshop-text, #flash-text, #xml-text, #html-text, #css-text, #javascript-text, #java-text, #mysql-text, #hibernate-text, #nodejs-text, #mongodb-text, #angularjs-text, #swift-text{
+    display: none;
+}
+
+#discover-photoshop-skill:hover, #discover-flash-skill:hover, #discover-xml-skill:hover, #discover-html-skill:hover, #discover-css-skill:hover, #discover-javascript-skill:hover, #discover-java-skill:hover,
+#discover-mysql-skill:hover, #discover-hibernate-skill:hover, #discover-nodejs-skill, #discover-mongodb-skill, #discover-angularjs-skill:hover, #discover-swift-skill:hover{
+    cursor: pointer;
+}
+
+.highlight-skills-year{
+    color: #2ac5c6;
+}
+
+.container-tech-2002, .container-tech-2007, .container-tech-2012, .container-tech-2014, .container-tech-2015{
+    padding-top: 100px;
+    /*border-right: 1px dotted #2ac5c6;*/
+}
+
+#discover-photoshop-skill, #discover-flash-skill, #discover-xml-skill, #discover-html-skill, #discover-css-skill, #discover-javascript-skill, #discover-java-skill, #discover-mysql-skill, #discover-hibernate-skill,
+#discover-nodejs-skill, #discover-mongodb-skill, #discover-angularjs-skill, #discover-swift-skill {
+    text-align: left;
+}
+
+#discover-photoshop-skill p, #discover-flash-skill p, #discover-xml-skill p, #discover-html-skill p, #discover-css-skill p, #discover-javascript-skill p, #discover-java-skill p, #discover-mysql-skill p,
+#discover-hibernate-skill p, #discover-nodejs-skill p, #discover-mongodb-skill p, #discover-angularjs-skill p, #discover-swift-skill p{
+    font-size: 11px;
+    margin-top: -10px;
+}
+
+.color-technology{
+    color: #fff;
+}
+
+.close-skills{
+    color: #fff;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 43px;
+}
+
+.close-skills:hover{
+    cursor: pointer;
 }
