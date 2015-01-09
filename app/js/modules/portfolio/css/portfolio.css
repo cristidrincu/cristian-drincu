@@ -5,11 +5,12 @@
 }
 
 .project-title{
+    margin-top: 0;
     font-size: 16px;
 }
 
 .container-project-details{
-    margin-top: 25px;
+    /*margin-top: 25px;*/
 }
 
 .project-image-container{
@@ -45,4 +46,10 @@
 .load-project:hover{
     border: 1px solid #2ac5c6;
     background-color: #2ac5c6;
+}
+
+.timeline-section-identifier{
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left: -13px;
 }

@@ -1,10 +1,15 @@
 $(document).ready(function(){
 
 	var selectedElement = $('#btn-discover-mission');
-	selectedElement.addClass('active-btn');
+	var returnToMainAboutSection = $('.return-to-main-about-section');
 
 	var scrollDistanceSquareLogos = "-60";
 	var scrollDistanceHorizontalLogos = "-60";
+
+	returnToMainAboutSection.on('click', function(){
+		selectedElement.removeClass('active-btn');
+		$(this).fadeOut().hide();
+	});
 
 	$('#btn-discover-mission').on('click', function(){
 
@@ -13,6 +18,7 @@ $(document).ready(function(){
 		selectedElement = $(this);
 		selectedElement.addClass('active-btn');
 		$('.slided-element').slideUp();
+		returnToMainAboutSection.fadeIn().show();
 		$('.mission-description').stop(true, true).slideDown().show().addClass('slided-element');
 	});
 
@@ -21,6 +27,7 @@ $(document).ready(function(){
 		selectedElement = $(this);
 		selectedElement.addClass('active-btn');
 		$('.slided-element').slideUp();
+		returnToMainAboutSection.fadeIn().show();
 		$('.beliefs-description').stop(true, true).slideDown().show().addClass('slided-element');
 	});
 
@@ -242,6 +249,7 @@ $(document).ready(function(){
 
 	$('.close-skills').on({
 		click: function(){
+			$('#btn-discover-skills').removeClass('active-btn');
 			$('.skills-timeline').stop(true, true).slideUp(1000);
 		}
 	})
