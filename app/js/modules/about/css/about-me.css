@@ -74,6 +74,7 @@
 
 .mission-container{
     padding-top: 75px;
+    height: 100%;
 }
 
 .mission-container h1.beliefs-h1-small, .mission-container h1.beliefs-h1-small-multiple-lines{
@@ -134,4 +135,33 @@
 .quote-author{
     font-size: 15px;
     float: right;
+}
+
+.slide-animate{
+    height: 100%;
+    position: relative;
+}
+
+.animation-about-views {
+    height: 800px;
+}
+
+.animation-about-views.ng-enter, .animation-about-views.ng-leave{
+    -webkit-transition: 0.5s linear all;
+    -moz-transition: 0.5s linear all;
+    -o-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+}
+
+.animation-about-views.ng-enter {
+    opacity: 0;
+}
+.animation-about-views.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+.animation-about-views.ng-leave {
+    opacity: 1;
+}
+.animation-about-views.ng-leave.ng-leave-active {
+    opacity: 0;
 }

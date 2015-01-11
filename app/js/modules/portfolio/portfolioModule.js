@@ -4,6 +4,7 @@ angular.module('cristiandrincu.portfolioModule', [
 		'cristiandrincu.portfolio.directives',
 		'ui.router'])
 	.config(['$stateProvider', '$locationProvider', function($stateProvider){
+
 		$stateProvider.state('allProjects', {
 			url: '/portfolio',
 			templateUrl: 'js/modules/portfolio/views/partials/portfolio.html',
@@ -37,7 +38,7 @@ angular.module('cristiandrincu.portfolioModule', [
 				url: '/projects/2012',
 				templateUrl: 'js/modules/portfolio/views/web-development/portfolio2012.html',
 				controller: 'PortfolioController'
-		});
+		})
 
 		$stateProvider.state('allGraphicsProjects', {
 			url: '/projects-graphic-design',
@@ -83,5 +84,5 @@ angular.module('cristiandrincu.portfolioModule', [
 				url: '/2015',
 				templateUrl: 'js/modules/portfolio/views/personal-projects/personal-projects-2015.html',
 				controller: 'PortfolioController'
-		})
+		});
 	}]);

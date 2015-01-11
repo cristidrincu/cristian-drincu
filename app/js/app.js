@@ -1,4 +1,4 @@
-angular.module('cristiandrincu', ['ngResource', 'cristiandrincu.aboutModule', 'cristiandrincu.portfolioModule'])
+angular.module('cristiandrincu', ['ngResource','cristiandrincu.homeModule', 'cristiandrincu.aboutModule', 'cristiandrincu.portfolioModule'])
 	.run(['$state', function($state){
-		$state.go('allProjects.projects2007');
+		$state.go('homePage');
 	}]);

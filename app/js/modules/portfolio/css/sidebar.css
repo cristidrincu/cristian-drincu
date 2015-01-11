@@ -1,3 +1,10 @@
+.menu-project-categories{
+    -webkit-animation: 0.5s fadeInLeft ease;
+    -moz-animation: 0.5s fadeInLeft ease;
+    -o-animation: 0.5s fadeInLeft ease;
+    animation: 0.5s fadeInLeft ease;
+}
+
 .menu-project-categories, .right-sidebar-project-details{
     padding-top: 45px;
 }
@@ -58,8 +65,12 @@
     background-color: #2bc5c6;
 }
 
-.container-project-complexity-medium{
+.container-project-complexity-small, .container-project-complexity-medium, .container-project-complexity-complex{
     background-color: #ffae00;
+    -webkit-animation: 0.5s flipInX ease;
+    -moz-animation: 0.5s flipInX ease;
+    -o-animation: 0.5s flipInX ease;
+    animation: 0.5s flipInX ease;
 }
 
 .container-project-complexity-complex{
@@ -94,4 +105,11 @@
 
 .project-status{
     margin-bottom: 20px;
+}
+
+.technology-used{
+    -webkit-animation: 0.5s bounceInUp ease;
+    -moz-animation: 0.5s bounceInUp ease;
+    -o-animation: 0.5s bounceInUp ease;
+    animation: 0.5s bounceInUp ease;
 }

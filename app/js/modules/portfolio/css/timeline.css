@@ -1,5 +1,9 @@
 .time-line-container{
     padding-top: 32px;
+    -webkit-animation: 0.5s fadeInDown ease;
+    -moz-animation: 0.5s fadeInDown ease;
+    -o-animation: 0.5s fadeInDown ease;
+    animation: 0.5s fadeInDown ease;
 }
 
 .year-container{

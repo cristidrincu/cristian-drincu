@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/default-elements/default-elements.css"/>
 	<link rel="stylesheet" href="css/nav-menu/nav-menu.css"/>
 	<link rel="stylesheet" href="css/skills-container/skills-container.css"/>
+	<link rel="stylesheet" href="css/animate/animate.css"/>
 
 	<link rel="stylesheet" href="js/modules/about/css/about-me.css"/>
 	<link rel="stylesheet" href="js/modules/team/css/team.css"/>
@@ -31,8 +32,8 @@
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<div class="collapse navbar-collapse">
 							<ul>
-								<li>
-									<a class="active" data-scroll-nav="0">HOME</a>
+								<li ng-controller="HomeController">
+									<a class="active" data-scroll-nav="0" ng-click="loadHomePage()">HOME</a>
 								</li>
 								<li>
 									<a data-scroll-nav="1">ABOUT</a>
@@ -40,8 +41,8 @@
 								<li>
 									<a data-scroll-nav="2">TEAM</a>
 								</li>
-								<li>
-									<a data-scroll-nav="3">PORTFOLIO</a>
+								<li ng-controller="PortfolioController">
+									<a data-scroll-nav="3" ng-click="loadWebDevelopmentProjects()">PORTFOLIO</a>
 								</li>
 								<li>
 									<a data-scroll-nav="4">CONTACT</a>
@@ -96,7 +97,9 @@
 	<div ng-include = "defaultTemplate.url"></div>
 </div>
 
-<div class="slide-animate" ng-include = "template.url"></div>
+<div class="slide-animate">
+	<div ng-include = "template.url"></div>
+</div>
 
 
 <div class="skills-timeline">
@@ -530,8 +533,12 @@
 <script src="lib/angular/angular.min.js"></script>
 <script src="lib/ui-router/angular-ui-router.js"></script>
 <script src="lib/angular/angular-resource.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script src="lib/angular/angular-animate.min.js"></script>
+<script src="lib/underscore-js/underscore-min.js"></script>
 <script src="lib/spinjs/spinjs.js"></script>
+
+<script src="js/modules/home/js/controllers.js"></script>
+<script src="js/modules/home/homeModule.js"></script>
 
 <script src="js/modules/about/js/controllers.js"></script>
 <script src="js/modules/about/js/directives.js"></script>
