@@ -1,5 +1,5 @@
 angular.module('cristiandrincu.about.controllers', [])
-	.controller('AboutController', ['$scope', function($scope){
+	.controller('AboutController', ['$scope', '$state', function($scope, $state){
 
 		$scope.loadDefaultTemplate = true;
 		$scope.defaultTemplate =
@@ -27,5 +27,9 @@ angular.module('cristiandrincu.about.controllers', [])
 					$scope.template = $scope.templates[2];
 				break;
 			}
+		}
+
+		$scope.loadAboutView = function(){
+			$state.go('aboutPage');
 		}
 	}]);

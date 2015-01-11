@@ -1,3 +1,6 @@
-/**
- * Created by cristiandrincu on 12/22/14.
- */
+angular.module('cristiandrincu.teamModule', ['cristiandrincu.team.controllers', 'ui.router'])
+	.config(['$stateProvider', function($stateProvider){
+		$stateProvider.state('teamPage', {
+			url: '/team'
+		})
+	}])

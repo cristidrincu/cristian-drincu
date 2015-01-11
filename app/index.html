@@ -35,17 +35,17 @@
 								<li ng-controller="HomeController">
 									<a class="active" data-scroll-nav="0" ng-click="loadHomePage()">HOME</a>
 								</li>
-								<li>
-									<a data-scroll-nav="1">ABOUT</a>
+								<li ng-controller="AboutController">
+									<a data-scroll-nav="1" ng-click="loadAboutView()">ABOUT</a>
 								</li>
-								<li>
-									<a data-scroll-nav="2">TEAM</a>
+								<li ng-controller="TeamController">
+									<a data-scroll-nav="2" ng-click="loadTeamView()">TEAM</a>
 								</li>
 								<li ng-controller="PortfolioController">
 									<a data-scroll-nav="3" ng-click="loadWebDevelopmentProjects()">PORTFOLIO</a>
 								</li>
-								<li>
-									<a data-scroll-nav="4">CONTACT</a>
+								<li ng-controller="ContactController">
+									<a data-scroll-nav="4" ng-click="loadContactView()">CONTACT</a>
 								</li>
 							</ul>
 						</div>
@@ -117,7 +117,6 @@
 	<div class="container-year-logo">
 		<div class="skills-year-container" id="skills-year-2002">
 			<h3><span class="highlight-skills-year">2002</span> - First job, first challenge... Flash</h3>
-
 			<p>
 				I got my first job in 2002, 2nd year of study. It was at a local TV station that hired me based on my Flash
 				multimedia cd. I had to build a Flash based application that would load custom built ads, the news, the weather
@@ -131,10 +130,8 @@
 			<div class="col-md-12 container-tech-2002">
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-photoshop-skill" src="img/temp/photoshop-icon.png"/>-->
 						<div id="discover-photoshop-skill">
 							<h3>Adobe Photoshop</h3>
-
 							<p>What were my tasks?</p>
 						</div>
 					</div>
@@ -148,10 +145,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-flash-skill" src="img/temp/flash-logo.png"/>-->
 						<div id="discover-flash-skill">
 							<h3>Macromedia Flash</h3>
-
 							<p>What did I have to build?</p>
 						</div>
 					</div>
@@ -166,10 +161,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-xml-skill" src="img/temp/xml-logo.png"/>-->
 						<div id="discover-xml-skill">
 							<h3>XML</h3>
-
 							<p>How did I use it?</p>
 						</div>
 					</div>
@@ -202,10 +195,8 @@
 			<div class="col-md-12 container-tech-2007">
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-html-skill" src="img/temp/html-icon.png"/>-->
 						<div id="discover-html-skill">
 							<h3>HTML</h3>
-
 							<p>Switching from Flash to HTML?</p>
 						</div>
 					</div>
@@ -219,7 +210,6 @@
 				</div>
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-css-skill" src="img/temp/css-logo.png"/>-->
 						<div id="discover-css-skill">
 							<h3>CSS</h3>
 
@@ -264,7 +254,6 @@
 	<div class="container-year-logo">
 		<div class="skills-year-container">
 			<h3><span class="highlight-skills-year">2012</span> - School's out... </h3>
-
 			<p>
 				In 2009 I decided to study computer science. There, I fell in love with Java and object oriented programming.
 				At the end of 2011, I started working on my dissertation, which was built using Java, MySQL &amp; JDBC.
@@ -447,7 +436,6 @@
 	</div>
 </div>
 
-
 </div>
 </div>
 </div>
@@ -495,13 +483,6 @@
 									<p>Ciprian has moved to Germany, but we did manage to bump into each other during the summer holidays.
 										Simina is an art-director now, working for Fortune 500 companies.</p>
 								</div>
-								<!--<h1 id="btn-discover-our-mission"><span class="my-mission">OUR</span> <strong>STORY</strong></h1>-->
-
-								<!--<div id="synopsis-story">-->
-								<!--<p>Donec lacinia orci quam, tristique egestas mauris congue ut. Aenean eu semper turpis. Praesent sit-->
-								<!--amet leo vitae neque dapibus eleifend eget a sem. Integer in nunc aliquet, consequat nunc fringilla,-->
-								<!--aliquam massa.</p>-->
-								<!--</div>-->
 								<h1 id="btn-discover-our-goal"><span class="my-mission">OUR</span> <strong>GOAL</strong></h1>
 
 								<div id="synopsis-goal">
@@ -543,6 +524,12 @@
 <script src="js/modules/about/js/controllers.js"></script>
 <script src="js/modules/about/js/directives.js"></script>
 <script src="js/modules/about/aboutModule.js"></script>
+
+<script src="js/modules/team/js/controllers.js"></script>
+<script src="js/modules/team/teamModule.js"></script>
+
+<script src="js/modules/contact/js/controllers.js"></script>
+<script src="js/modules/contact/contactModule.js"></script>
 
 <script src="js/modules/portfolio/js/controllers.js"></script>
 <script src="js/modules/portfolio/js/services.js"></script>

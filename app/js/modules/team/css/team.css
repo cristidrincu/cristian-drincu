@@ -54,7 +54,7 @@
 
 .member-description {
     font-size: 13px;
-    color: #afafaf;
+    color: #5F5F5F;
 }
 
 .btn-profile-linkedin{
@@ -80,7 +80,7 @@
 }
 
 #synopsis-team p, #synopsis-friends p, #synopsis-goal p{
-    color:#afafaf;
+    color:#5F5F5F;
     margin-bottom: 10px;
 }
 

@@ -7,6 +7,13 @@
     width: 100%;
 }
 
+.about-me-description-container{
+    -webkit-animation: 0.5s fadeInUp ease;
+    -moz-animation: 0.5s fadeInUp ease;
+    -o-animation: 0.5s fadeInUp ease;
+    animation: 0.5s fadeInUp ease;
+}
+
 .about-me-description-container p{
     color: #333;
     line-height: 24px;
@@ -75,6 +82,10 @@
 .mission-container{
     padding-top: 75px;
     height: 100%;
+    -webkit-animation: 0.5s fadeInRight ease;
+    -moz-animation: 0.5s fadeInRight ease;
+    -o-animation: 0.5s fadeInRight ease;
+    animation: 0.5s fadeInRight ease;
 }
 
 .mission-container h1.beliefs-h1-small, .mission-container h1.beliefs-h1-small-multiple-lines{
