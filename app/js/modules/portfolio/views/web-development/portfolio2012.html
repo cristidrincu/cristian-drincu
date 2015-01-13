@@ -1,18 +1,12 @@
-<div style="position: relative; height: 480px;" class="col-md-2" ng-repeat="project in projects2012 track by $index">
+<div class="col-md-2 container-main-project-teaser-images" ng-repeat="project in projects2012 track by $index">
 
 	<h3 class="project-title">{{ project.name }}</h3>
-	<p style="color: #666; margin-top: -10px; font-size: 12px;">Project type: {{ project.type }}</p>
-	<div style="width: 200px; height: 200px;">
+	<p class="project-type-title">Project type: {{ project.type }}</p>
+	<div class="project-teaser-image-container">
 		<img class="project-teaser-image" ng-src="img/portfolio/web-development/{{ project.projectTeaserImage }}"/>
 	</div>
 
 	<p class="project-description-teaser">{{ project.description }}</p>
-
-	<!--<h3 class="project-title">Team members</h3>-->
-
-	<!--<div ng-repeat="member in project.projectMembers track by $index">-->
-		<!--<img data-scroll-goto="2" style="float: left; margin-right: 5px; margin-bottom: 5px;" ng-src="img/avatars-team-project/{{ member.avatarImage }}"/>-->
-	<!--</div>-->
 	<br class="clearFloats"/>
 	<a data-scroll-goto="3" style="position: absolute; bottom: 0; left:0" ui-sref="projectDetail( {id: project._id} )" class="btn btn-info load-project">View Project</a>
 

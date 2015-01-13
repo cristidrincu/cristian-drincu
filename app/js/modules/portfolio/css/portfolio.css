@@ -23,11 +23,27 @@
     margin-right: 5px;
 }
 
+.container-main-project-teaser-images{
+    position: relative;
+    height: 480px;
+}
+
 .project-member{
     -webkit-animation: 0.5s bounceIn ease;
     -moz-animation: 0.5s bounceIn ease;
     -o-animation: 0.5s bounceIn ease;
     animation: 0.5s fadeInDown ease;
+}
+
+.project-type-title{
+    color: #666;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.project-teaser-image-container{
+    width: 200px;
+    height: 200px;
 }
 
 .project-teaser-image{

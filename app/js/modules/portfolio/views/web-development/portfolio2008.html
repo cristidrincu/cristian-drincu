@@ -1,9 +1,9 @@
-<div style="position: relative; height: 480px;" class="col-md-2" ng-repeat="project in projects2008 track by $index">
+<div class="col-md-2 container-main-project-teaser-images" ng-repeat="project in projects2008 track by $index">
 
 	<h3 class="project-title">{{ project.name }}</h3>
-	<p style="color: #666; margin-top: -10px; font-size: 12px;">Project type: {{ project.type }}</p>
+	<p class="project-type-title">Project type: {{ project.type }}</p>
 
-	<div style="width: 200px; height: 200px;">
+	<div class="project-teaser-image-container">
 		<img class="project-teaser-image" ng-src="img/portfolio/web-development/{{ project.projectTeaserImage }}"/>
 	</div>
 
