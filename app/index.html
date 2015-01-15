@@ -2,6 +2,16 @@
 <html>
 <head>
 	<title>cristiandrincu.com</title>
+
+	<meta charset="UTF-8">
+	<meta name="author" content="Cristian Drincu">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta name="description" content="The Portfolio and Work Log of Cristian Drincu">
+
+	<meta property="og:title" content="The Portfolio and Work Log of Cristian Drincu">
+	<meta property="og:image" content="img/logo/logo-cd-4-ver-2.png">
+	<meta property="og:description" content="The Portfolio and Work Log of Cristian Drincu">
+
 	<link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.css"/>
 	<link rel="stylesheet" href="css/default-elements/default-elements.css"/>
 	<link rel="stylesheet" href="css/nav-menu/nav-menu.css"/>
@@ -22,15 +32,14 @@
 <header>
 	<div class="container container-menu">
 		<div class="row background-header-website">
-			<div class="col-sm-12 col-md-12 col-lg-12">
+			<div class="col-md-12">
 				<div class="col-md-4 logo-container">
 					<a data-scroll-goto="0"><img class="logo-site" src="img/logo/logo-cd-4-ver-2.png"
 																			 alt="cristiandrincu.com"/></a>
 				</div>
 
-				<nav class="col-md-7 nav-menu" role="navigation">
-					<div class="collapse navbar-collapse navbar-ex1-collapse">
-						<div class="collapse navbar-collapse">
+				<nav class="col-md-7 nav-menu">
+					<div id="navbar" class="navbar-collapse collapse navbar-ex1-collapse">
 							<ul>
 								<li ng-controller="HomeController">
 									<a class="active" data-scroll-nav="0" ng-click="loadHomePage()">HOME</a>
@@ -48,9 +57,7 @@
 									<a data-scroll-nav="4" ng-click="loadContactView()">CONTACT</a>
 								</li>
 							</ul>
-						</div>
 					</div>
-
 				</nav>
 			</div>
 		</div>
@@ -63,7 +70,7 @@
 </div>
 
 <!--ABOUT Section-->
-<div data-scroll-index="1" class="about" id="about-global-trigger">
+<div data-scroll-index="1" class="about">
 <div class="container about-container">
 <div class="row">
 <div class="col-md-12" ng-controller="AboutController">
@@ -101,7 +108,7 @@
 	<div ng-include = "template.url"></div>
 </div>
 
-
+<!--SKILLS TIMELINE-->
 <div class="skills-timeline">
 <p ng-click="loadTemplate(0)" class="close-skills"><i class="fa fa-times"></i> Close the timeline</p>
 <br class="clearFloats"/>
@@ -182,7 +189,6 @@
 	<div class="container-year-logo">
 		<div class="skills-year-container">
 			<h3><span class="highlight-skills-year">2007</span> - Flash is dead, long live HTML, CSS and JavaScript</h3>
-
 			<p>
 				Back in 2007, it was clear that Flash had a limited time span. It was time to learn the technologies that would
 				allow Google to index web sites
@@ -212,7 +218,6 @@
 					<div class="container-tech-logo-square">
 						<div id="discover-css-skill">
 							<h3>CSS</h3>
-
 							<p>Write once, apply everywhere!</p>
 						</div>
 					</div>
@@ -227,7 +232,6 @@
 				</div>
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-javascript-skill" src="img/temp/javascript-logo.png"/>-->
 						<div id="discover-javascript-skill">
 							<h3>Javascript&amp;Jquery</h3>
 
@@ -265,7 +269,6 @@
 			<div class="col-md-12 container-tech-2012">
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-java-skill" src="img/temp/java-icon.png"/>-->
 						<div id="discover-java-skill">
 							<h3>JAVA SE 6</h3>
 
@@ -285,7 +288,6 @@
 				</div>
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-mysql-skill" src="img/temp/mysql-logo.png"/>-->
 						<div id="discover-mysql-skill">
 							<h3>MySQL</h3>
 
@@ -301,7 +303,6 @@
 				</div>
 				<div class="col-md-4">
 					<div class="container-tech-logo-square">
-						<!--<img id="discover-hibernate-skill" src="img/temp/hibernate-logo.png"/>-->
 						<div id="discover-hibernate-skill">
 							<h3>Hibernate</h3>
 
@@ -327,7 +328,6 @@
 	<div class="container-year-logo">
 		<div class="skills-year-container">
 			<h3><span class="highlight-skills-year">2014</span> - Javascript everywhere... </h3>
-
 			<p>
 				…but most importantly on the server. Everyone I knew was talking about Node.js ,Express and MongoDB. Pair these
 				javascript
@@ -340,10 +340,8 @@
 			<div class="col-md-12 container-tech-2014">
 				<div class="col-md-4">
 					<div class="container-tech-logo-horizontal">
-						<!--<img id="discover-nodejs-skill" src="img/logo-techs/node-logo-edit.png"/>-->
 						<div id="discover-nodejs-skill">
 							<h3>Node.JS</h3>
-
 							<p>Javascript on the server?</p>
 						</div>
 					</div>
@@ -357,10 +355,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="container-tech-logo-horizontal">
-						<!--<img id="discover-mongodb-skill" src="img/logo-techs/MongoDB-Logo-edit.png"/>-->
 						<div id="discover-mongodb-skill">
 							<h3>MongoDB</h3>
-
 							<p>No more JOINS. How about some populations?</p>
 						</div>
 					</div>
@@ -376,10 +372,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="container-tech-logo-horizontal">
-						<!--<img id="discover-angularjs-skill" src="img/logo-techs/AngularJS-logo-edit.png"/>-->
 						<div id="discover-angularjs-skill">
 							<h3>AngularJS</h3>
-
 							<p>Dependency injection and project structure?</p>
 						</div>
 					</div>
@@ -444,7 +438,7 @@
 </div>
 
 <!--TEAM Section-->
-<div data-scroll-index="2" class="team" id="team-global-trigger">
+<div data-scroll-index="2" class="team">
 	<div class="container team-container">
 		<div class="row">
 			<div class="col-md-12">
@@ -543,5 +537,6 @@
 <script src="lib/custom/discover-me.js"></script>
 <script src="lib/custom/discover-team.js"></script>
 <script src="lib/custom/scroll-skills-by-years.js"></script>
+
 </body>
 </html>
