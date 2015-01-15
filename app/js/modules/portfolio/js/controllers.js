@@ -1,95 +1,28 @@
 angular.module('cristiandrincu.portfolio.controllers', [])
-	.controller('PortfolioController', ['$state', '$scope', 'Portfolio', '$location', function ($state, $scope, Portfolio) {
+	.controller('PortfolioController', ['$state', '$stateParams', '$scope', 'Portfolio', '$location', function ($state, $stateParams, $scope, Portfolio) {
 		$scope.loadingProjects = true;
+		$scope.portfolioType = $stateParams.type;
 
 		//you can use an {} to configure the query - Portfolio.query({limit: limit}) for example
 		Portfolio.query(function(projects){
-			var projects2007 = _.filter(projects, function(project){
-				return project.published === '2007' && project.type === 'web development';
+			var projects = _.filter(projects, function(project){
+				return project.published === $stateParams.year && project.type === $stateParams.type;
 			});
 
-			var projects2008 = _.filter(projects, function(project){
-				return project.published === '2008' && project.type === 'web development';
-			});
-
-			var projects2009 = _.filter(projects, function(project){
-				return project.published === '2009' && project.type === 'web development';
-			});
-
-			var projects2010 = _.filter(projects, function(project){
-				return project.published === '2010' && project.type === 'web development';
-			});
-
-			var projects2011 = _.filter(projects, function(project){
-				return project.published === '2011' && project.type === 'web development';
-			});
-
-			var projects2012 = _.filter(projects, function(project){
-				return project.published === '2012' && project.type === 'web development';
-			});
-
-			var projectsGraphic2007 = _.filter(projects, function(project){
-				return project.published === '2007' && project.type === 'graphic design';
-			});
-
-			var projectsGraphic2008 = _.filter(projects, function(project){
-				return project.published === '2008' && project.type === 'graphic design';
-			});
-
-			var projectsGraphic2009 = _.filter(projects, function(project){
-				return project.published === '2009' && project.type === 'graphic design';
-			});
-
-			var projectsGraphic2010 = _.filter(projects, function(project){
-				return project.published === '2010' && project.type === 'graphic design';
-			});
-
-			var projectsGraphic2011 = _.filter(projects, function(project){
-				return project.published === '2011' && project.type === 'graphic design';
-			});
-
-			var projectsGraphic2012 = _.filter(projects, function(project){
-				return project.published === '2012' && project.type === 'graphic design';
-			});
-
-			var projectsPersonal2014 = _.filter(projects, function(project){
-				return project.published == '2014' && project.type === 'personal';
-			});
-
-			var projectsPersonal2015 = _.filter(projects, function(project){
-				return project.published == '2015' && project.type === 'personal';
-			});
-
-			$scope.projects2007 = projects2007;
-			$scope.projects2008 = projects2008;
-			$scope.projects2009 = projects2009;
-			$scope.projects2010 = projects2010;
-			$scope.projects2011 = projects2011;
-			$scope.projects2012 = projects2012;
-
-			$scope.projectsGraphic2007 = projectsGraphic2007;
-			$scope.projectsGraphic2008 = projectsGraphic2008;
-			$scope.projectsGraphic2009 = projectsGraphic2009;
-			$scope.projectsGraphic2010 = projectsGraphic2010;
-			$scope.projectsGraphic2011 = projectsGraphic2011;
-			$scope.projectsGraphic2012 = projectsGraphic2012;
-
-			$scope.projectsPersonal2014 = projectsPersonal2014;
-			$scope.projectsPersonal2015 = projectsPersonal2015;
-
-			$scope.loadingProjects = false;
+			 $scope.projects = projects;
+			 $scope.loadingProjects = false;
 		});
 
 		$scope.loadGraphicsProjects = function(){
-			$state.go('allGraphicsProjects.projectsGraphic2007');
+			$state.go('allGraphicsProjects.projectsGraphic2007', {year: '2007', type: 'graphic design'});
 		}
 
 		$scope.loadWebDevelopmentProjects = function(){
-			$state.go('allProjects.projects2007');
+			$state.go('allProjects.projects2007', {year: '2007', type: 'web development'});
 		}
 
 		$scope.loadPersonalProjects = function(){
-			$state.go('allPersonalProjects.personal2014');
+			$state.go('allPersonalProjects.personal2014', {year: '2014', type:'personal'});
 		}
 
 	}])
@@ -103,4 +36,4 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 				$scope.projectStatus = '';
 			}
 		});
-	}])
+	}]);
