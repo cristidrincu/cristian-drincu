@@ -31,9 +31,12 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 			$scope.portfolioDetail = project;
 
 			if(project.projectWebLink.length > 0){
+				//if the project is online, get the project link
 				$scope.projectStatus = project.projectWebLink;
 			}else{
+				//if the project is offline, set the project status to an empty string and get the github link for the project code
 				$scope.projectStatus = '';
+				$scope.gitHubLink = project.projectGitHubLink;
 			}
 		});
 	}]);

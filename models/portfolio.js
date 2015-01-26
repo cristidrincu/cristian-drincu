@@ -12,6 +12,7 @@ var portfolioSchema = mongoose.Schema({
 	}],
 	technologiesUsed: Array,
 	projectWebLink: String,
+	projectGitHubLink: String,
 	projectMainImage: String,
 	projectTeaserImage: String,
 	projectImages: Array
