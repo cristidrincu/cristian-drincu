@@ -43,18 +43,25 @@
 			</div>
 		</div>
 		<div class="col-md-2 right-sidebar-project-details">
-			<div ng-if="projectStatus.length > 0">
-				<p class="project-category-identifier project-status">STATUS: <a href="{{ projectStatus }}" target="_blank" class="btn btn-success online-btn">ONLINE</a></p>
+			<div ng-if="portfolioDetail.projectWebLink.length > 0 && portfolioDetail.projectGitHubLink.length > 0 && portfolioDetail.type != 'graphic design'">
+				<p class="project-category-identifier project-status">STATUS: <a href="{{ portfolioDetail.projectWebLink }}" target="_blank" class="btn btn-success online-btn">ONLINE</a></p>
+				<p class="project-category-identifier project-status"><a href="{{ portfolioDetail.projectGitHubLink }}" target="_blank" class="btn btn-warning online-btn">VIEW ON GITHUB</a></p>
 			</div>
-			<div ng-if="projectStatus.length == 0 && gitHubLink.length > 0">
-				<p class="project-category-identifier project-status"><a href="{{ gitHubLink }}" target="_blank" class="btn btn-success online-btn">VIEW ON GITHUB</a></p>
+			<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.projectGitHubLink.length > 0 && portfolioDetail.type != 'graphic design'">
+				<p class="project-category-identifier project-status"><a href="{{ portfolioDetail.projectGitHubLink }}" target="_blank" class="btn btn-success online-btn">VIEW ON GITHUB</a></p>
 			</div>
-			<div ng-if="projectStatus.length == 0 && portfolioDetail.type != 'graphic design' && gitHubLink == 0">
+			<div ng-if="portfolioDetail.projectWebLink.length > 0 && portfolioDetail.projectGitHubLink == 0 && portfolioDetail.type != 'graphic design'" >
+				<p class="project-category-identifier project-status">STATUS: <a href="{{ portfolioDetail.projectWebLink }}" target="_blank" class="btn btn-success online-btn">ONLINE</a></p>
+			</div>
+			<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.type != 'graphic design' && portfolioDetail.projectGitHubLink == 0">
 				<p class="project-category-identifier">Status: Offline</p>
 			</div>
-			<div ng-if="projectStatus.length == 0 && portfolioDetail.type == 'graphic design'">
+
+
+			<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.type == 'graphic design'">
 				<p class="project-category-identifier">Graphic Design Project</p>
 			</div>
+
 			<p class="project-category-identifier">TECHNOLOGIES USED</p>
 			<div class="row">
 				<div class="col-md-12">
