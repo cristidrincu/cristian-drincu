@@ -1,0 +1,75 @@
+@media all and (max-width: 1280px) {
+    .home-page-container{
+        padding-top: 30px;
+    }
+
+    .nav-menu ul li{
+        margin-left: 70px;
+    }
+
+    .project-teaser-image-container{
+        height: 170px;
+    }
+
+    .project-teaser-image{
+        width: 75%;
+    }
+
+    .project-title{
+        font-size: 12px;
+    }
+
+    .project-description-teaser{
+        margin-top: 0;
+    }
+
+    .graphics-project, .web-projects{
+        font-size: 9px;
+    }
+
+    .project-teaser-image-large{
+        width: 78%;
+    }
+
+    .skills-container h1{
+        font-size: 65px;
+    }
+
+    .mission-container h1.beliefs-h1-small{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .mission-container h1.last-in-motto{
+        margin-top: -30px;
+    }
+
+    .mission-container h1.beliefs-h1-large{
+        font-size: 130px;
+    }
+
+    .mission-container h1.beliefs-h1-largest{
+        font-size: 200px;
+    }
+
+    .mission-container h1.beliefs-h1-small-multiple-lines{
+        font-size: 23px;
+    }
+
+    .mission-container p{
+        margin-left: 170px;
+    }
+
+    .container-team-friends-text h1{
+        font-size: 60px;
+    }
+
+    .team-member-image-container img{
+        width: 115px;
+        height: 117px;
+    }
+
+    .container-info-team-member h3{
+        font-size: 20px;
+    }
+}

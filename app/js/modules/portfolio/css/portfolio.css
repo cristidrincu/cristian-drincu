@@ -46,7 +46,7 @@
     height: 200px;
 }
 
-.project-teaser-image{
+.project-teaser-image, .project-teaser-image-large{
     border:1px solid #fff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
