@@ -27,17 +27,17 @@
 		<div class="col-md-8 project-image-container">
 			<p class="project-category-identifier">PROJECT NAME: {{ portfolioDetail.name }}</p>
 			<div ng-if="portfolioDetail.type == 'web development'">
-				<div style="width:1024px; height: 600px; margin-top: 15px;">
+				<div class="container-project-image-large">
 					<img class="project-teaser-image-large" ng-src="img/portfolio/{{ portfolioDetail.projectMainImage }}"/>
 				</div>
 			</div>
 			<div ng-if="portfolioDetail.type == 'graphic design'">
-				<div style="width:1024px; height: 600px; margin-top: 15px;">
+				<div class="container-project-image-large">
 					<img class="project-teaser-image-large" ng-src="img/portfolio/graphic/{{ portfolioDetail.projectMainImage }}"/>
 				</div>
 			</div>
 			<div ng-if="portfolioDetail.type == 'personal'">
-				<div style="width:1024px; height: 600px; margin-top: 15px;">
+				<div class="container-project-image-large">
 					<img class="project-teaser-image-large" ng-src="img/portfolio/personal/{{ portfolioDetail.projectMainImage }}"/>
 				</div>
 			</div>
@@ -65,7 +65,7 @@
 			<p class="project-category-identifier">TECHNOLOGIES USED</p>
 			<div class="row">
 				<div class="col-md-12">
-					<div ng-repeat="technology in portfolioDetail.technologiesUsed" class="col-md-6 technology-used">
+					<div ng-repeat="technology in portfolioDetail.technologiesUsed" class="col-xs-2 col-sm-2 col-md-6 technology-used">
 						<p class="technology-used-text">{{ technology }}</p>
 					</div>
 				</div>
