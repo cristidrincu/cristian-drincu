@@ -6,6 +6,11 @@
     z-index: 100;
 }
 
+#navbar{
+    position: relative;
+    top:-35px;
+}
+
 .nav-menu {
     padding-top: 35px;
     margin-left: 65px;

@@ -1,12 +1,19 @@
-@media all and (min-width: 768px) and (max-width: 1000px){
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
 
     #navbar{
-
-        top: -20px;
+        position: relative;
+        top: 0;
+        background-color: #48474D;
+        margin-left: 5px;
+        border: none;
+        margin-bottom: 20px;
     }
 
     .logo-container{
-       width:  150px;
+        width:  150px;
     }
 
     .home-page-container{
@@ -14,14 +21,12 @@
     }
 
     #nav-bar{
-       width: inherit;
+        width: inherit;
     }
 
     .nav-menu{
-        width: 500px;
-        top: -55px;
-        left: -40px;
         position: relative;
+        top: -75px;
     }
 
     .nav-menu ul li{
@@ -116,4 +121,16 @@
     .container-main-project-teaser-images{
         margin-bottom: 20px;
     }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    /* Styles */
 }

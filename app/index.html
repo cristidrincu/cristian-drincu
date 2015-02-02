@@ -27,6 +27,7 @@
 
 	<link rel="stylesheet" href="css/media-queries/media-queries-1280-800.css"/>
 	<link rel="stylesheet" href="css/media-queries/media-queries-768-1000.css"/>
+	<link rel="stylesheet" href="css/media-queries/smartphones.css"/>
 
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
@@ -40,28 +41,40 @@
 					<a data-scroll-goto="0"><img class="logo-site" src="img/logo/logo-cd-4-ver-2.png"
 																			 alt="cristiandrincu.com"/></a>
 				</div>
+				<div class="navbar navbar-default">
+					<!--<div class="container">-->
+						<nav class="nav-menu">
+							<div id="navbar" class="container">
 
-				<nav class="col-md-7 nav-menu">
-					<div id="navbar">
-							<ul>
-								<li ng-controller="HomeController">
-									<a class="active" data-scroll-nav="0" ng-click="loadHomePage()">HOME</a>
-								</li>
-								<li ng-controller="AboutController">
-									<a data-scroll-nav="1" ng-click="loadAboutView()">ABOUT</a>
-								</li>
-								<li ng-controller="TeamController">
-									<a data-scroll-nav="2" ng-click="loadTeamView()">TEAM</a>
-								</li>
-								<li ng-controller="PortfolioController">
-									<a data-scroll-nav="3" ng-click="loadWebDevelopmentProjects()">PORTFOLIO</a>
-								</li>
-								<li ng-controller="ContactController">
-									<a data-scroll-nav="4" ng-click="loadContactView()">CONTACT</a>
-								</li>
-							</ul>
-					</div>
-				</nav>
+								<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+
+								<div class="collapse navbar-collapse navHeaderCollapse">
+									<ul class="nav navbar-nav navbar-right">
+										<li ng-controller="HomeController">
+											<a class="active" data-scroll-nav="0" ng-click="loadHomePage()">HOME</a>
+										</li>
+										<li ng-controller="AboutController">
+											<a data-scroll-nav="1" ng-click="loadAboutView()">ABOUT</a>
+										</li>
+										<li ng-controller="TeamController">
+											<a data-scroll-nav="2" ng-click="loadTeamView()">TEAM</a>
+										</li>
+										<li ng-controller="PortfolioController">
+											<a data-scroll-nav="3" ng-click="loadWebDevelopmentProjects()">PORTFOLIO</a>
+										</li>
+										<li ng-controller="ContactController">
+											<a data-scroll-nav="4" ng-click="loadContactView()">CONTACT</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					<!--</div>-->
+				</div>
 			</div>
 		</div>
 	</div>
@@ -514,6 +527,7 @@
 <script src="lib/angular/angular-animate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
 <script src="lib/spinjs/spinjs.js"></script>
+<script src="css/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <script src="js/modules/home/js/controllers.js"></script>
 <script src="js/modules/home/homeModule.js"></script>
