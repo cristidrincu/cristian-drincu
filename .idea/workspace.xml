@@ -2,299 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efdf785c-3904-4033-9b45-ea05413bbb68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend-app/js/backend-app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/user.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/login/login-routes.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-animate.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-animate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-animate.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-animate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular-animate.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-cookies.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-cookies.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-cookies.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-cookies.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-cookies.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular-cookies.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-csp.css" afterPath="$PROJECT_DIR$/public/lib/angular/angular-csp.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-loader.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-loader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-loader.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-loader.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-loader.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular-loader.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-resource.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-resource.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-resource.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-resource.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-resource.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular-resource.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-route.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-route.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-route.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-route.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-route.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular-route.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-sanitize.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-sanitize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-sanitize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular-sanitize.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-touch.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-touch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-touch.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular-touch.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular-touch.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular-touch.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/public/lib/angular/angular.min.js.gzip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/errors.json" afterPath="$PROJECT_DIR$/public/lib/angular/errors.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_af-na.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_af-na.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_af-za.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_af-za.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_af.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_af.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_am-et.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_am-et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_am.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_am.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-001.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-001.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-ae.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-ae.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-bh.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-bh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-dz.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-dz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-eg.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-eg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-iq.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-iq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-jo.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-jo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-kw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-kw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-lb.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-lb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-ly.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-ly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-ma.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-ma.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-om.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-om.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-qa.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-qa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-sa.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-sa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-sd.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-sd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-sy.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-sy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-tn.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-tn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar-ye.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar-ye.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ar.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_bg-bg.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_bg-bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_bg.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_bg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_bn-bd.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_bn-bd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_bn-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_bn-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_bn.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_bn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ca-ad.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ca-ad.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ca-es.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ca-es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ca.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_cs-cz.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_cs-cz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_cs.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_cs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_da-dk.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_da-dk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_da.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_da.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_de-at.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_de-at.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_de-be.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_de-be.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_de-ch.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_de-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_de-de.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_de-de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_de-li.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_de-li.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_de-lu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_de-lu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_de.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_de.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_el-cy.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_el-cy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_el-gr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_el-gr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_el.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_el.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-as.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-as.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-au.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-au.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-bb.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-bb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-be.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-be.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-bm.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-bm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-bw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-bw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-bz.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-bz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-ca.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-dsrt-us.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-dsrt-us.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-dsrt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-dsrt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-fm.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-fm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-gb.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-gb.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-gu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-gu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-gy.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-gy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-hk.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-hk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-ie.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-ie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-iso.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-iso.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-jm.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-jm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-mh.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-mh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-mp.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-mp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-mt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-mt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-mu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-mu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-na.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-na.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-nz.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-nz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-ph.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-ph.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-pk.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-pk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-pr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-pr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-pw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-pw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-sg.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-sg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-tc.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-tc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-tt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-tt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-um.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-um.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-us.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-us.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-vg.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-vg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-vi.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-za.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-za.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en-zw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en-zw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_en.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-419.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-419.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-ar.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-bo.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-bo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-cl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-cl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-co.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-co.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-cr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-cr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-do.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-do.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-ea.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-ea.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-ec.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-ec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-es.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-gq.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-gq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-gt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-gt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-hn.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-hn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-ic.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-ic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-mx.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-mx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-ni.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-ni.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-pa.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-pa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-pe.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-pe.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-pr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-pr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-py.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-py.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-sv.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-us.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-us.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-uy.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-uy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es-ve.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es-ve.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_es.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_et-ee.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_et-ee.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_et.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_et.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_eu-es.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_eu-es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_eu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_eu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fa-af.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fa-af.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fa-ir.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fa-ir.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fa.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fa.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fi-fi.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fi-fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fi.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fil-ph.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fil-ph.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fil.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fil.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-be.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-be.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-bf.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-bf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-bi.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-bi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-bj.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-bj.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-bl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-bl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-ca.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-ca.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-cd.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-cd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-cf.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-cf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-cg.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-cg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-ch.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-ci.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-ci.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-cm.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-cm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-dj.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-dj.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-fr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-ga.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-ga.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-gf.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-gf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-gn.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-gn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-gp.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-gp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-gq.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-gq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-km.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-km.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-lu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-lu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-mc.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-mc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-mf.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-mf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-mg.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-mg.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-ml.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-ml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-mq.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-mq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-ne.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-ne.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-re.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-re.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr-yt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr-yt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_fr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_fr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_gl-es.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_gl-es.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_gl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_gl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_gsw-ch.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_gsw-ch.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_gsw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_gsw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_gu-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_gu-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_gu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_gu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_he-il.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_he-il.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_he.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_he.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_hi-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_hi-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_hi.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_hi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_hr-hr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_hr-hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_hr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_hr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_hu-hu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_hu-hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_hu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_hu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_id-id.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_id-id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_id.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_id.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_is-is.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_is-is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_is.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_is.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_it-it.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_it-it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_it-sm.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_it-sm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_it.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_it.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_iw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_iw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ja-jp.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ja-jp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ja.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ja.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_kn-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_kn-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_kn.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_kn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ko-kr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ko-kr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ko.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ln-cd.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ln-cd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ln.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ln.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_lt-lt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_lt-lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_lt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_lt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_lv-lv.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_lv-lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_lv.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_lv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ml-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ml-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ml.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_mr-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_mr-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_mr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_mr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ms-my.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ms-my.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ms.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_mt-mt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_mt-mt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_mt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_mt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_nl-cw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_nl-cw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_nl-nl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_nl-nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_nl-sx.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_nl-sx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_nl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_nl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_no.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_no.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_or-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_or-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_or.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_or.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_pl-pl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_pl-pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_pl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_pl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_pt-br.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_pt-br.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_pt-pt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_pt-pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_pt.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_pt.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ro-ro.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ro-ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ro.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ru-ru.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ru-ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ru.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sk-sk.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sk-sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sk.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sl-si.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sl-si.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sq-al.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sq-al.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sq.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sr-cyrl-rs.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sr-cyrl-rs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sr-latn-rs.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sr-latn-rs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sv-se.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sv-se.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sv.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sw-tz.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sw-tz.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_sw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_sw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ta-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ta-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ta.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ta.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_te-in.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_te-in.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_te.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_te.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_th-th.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_th-th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_th.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_th.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_tl.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_tl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_tr-tr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_tr-tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_tr.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_tr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_uk-ua.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_uk-ua.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_uk.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_uk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ur-pk.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ur-pk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_ur.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_ur.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_vi-vn.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_vi-vn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_vi.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_vi.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_zh-cn.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_zh-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_zh-hans-cn.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_zh-hans-cn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_zh-hk.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_zh-hk.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_zh-tw.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_zh-tw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_zh.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_zh.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_zu-za.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_zu-za.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/i18n/angular-locale_zu.js" afterPath="$PROJECT_DIR$/public/lib/angular/i18n/angular-locale_zu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/version.json" afterPath="$PROJECT_DIR$/public/lib/angular/version.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/angular/version.txt" afterPath="$PROJECT_DIR$/public/lib/angular/version.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/custom/discover-me.js" afterPath="$PROJECT_DIR$/public/lib/custom/discover-me.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/custom/discover-team.js" afterPath="$PROJECT_DIR$/public/lib/custom/discover-team.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/custom/scroll-pages.js" afterPath="$PROJECT_DIR$/public/lib/custom/scroll-pages.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/custom/scroll-skills-by-years.js" afterPath="$PROJECT_DIR$/public/lib/custom/scroll-skills-by-years.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/custom/scrollit.js" afterPath="$PROJECT_DIR$/public/lib/custom/scrollit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/jquery/jquery-2.1.3.min.js" afterPath="$PROJECT_DIR$/public/lib/jquery/jquery-2.1.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/spinjs/spinjs.js" afterPath="$PROJECT_DIR$/public/lib/spinjs/spinjs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/lib/ui-router/angular-ui-router.js" afterPath="$PROJECT_DIR$/public/lib/ui-router/angular-ui-router.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/members/members-backend.ejs" afterPath="$PROJECT_DIR$/views/members/backend-panel.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend-app/js/modules/members/js/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend-app/js/modules/members/membersModule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend-app/js/backend-app.js" afterPath="$PROJECT_DIR$/backend-app/js/backend-app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/footer-backend.ejs" afterPath="$PROJECT_DIR$/views/partials/footer-backend.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/header-backend.ejs" afterPath="$PROJECT_DIR$/views/partials/header-backend.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login/login.ejs" afterPath="$PROJECT_DIR$/views/login/login.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/members/member-routes.js" afterPath="$PROJECT_DIR$/routes/members/member-routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cristiandrincu-com.iws" />
@@ -318,64 +31,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="523" column="0" selection-start="20531" selection-end="20589" vertical-scroll-proportion="-10.041667" vertical-offset="7604" max-vertical-offset="8445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="login.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/login/login.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="500" selection-end="887" vertical-scroll-proportion="-11.291667" vertical-offset="29" max-vertical-offset="780">
+            <state line="11" column="59" selection-start="494" selection-end="494" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header-backend.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header-backend.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/header-backend.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.2386781" vertical-offset="0" max-vertical-offset="817">
+            <state line="16" column="21" selection-start="632" selection-end="632" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer-backend.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="footer-backend.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/partials/footer-backend.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="466" selection-end="466" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="285">
+            <state line="7" column="14" selection-start="305" selection-end="305" vertical-scroll-proportion="0.12851897" vertical-offset="0" max-vertical-offset="817">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passport.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/passport.js">
+      <file leaf-file-name="backend-app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend-app/js/backend-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="22" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="870">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend-app/js/modules/members/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="12" selection-start="1848" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="329" max-vertical-offset="1245">
+            <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/user.js">
+      <file leaf-file-name="teamModule.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/modules/team/teamModule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="50" selection-start="170" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backend-panel.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/members/backend-panel.ejs">
+      <file leaf-file-name="membersModule.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend-app/js/modules/members/membersModule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="34" selection-start="2511" selection-end="2511" vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="870">
+            <state line="0" column="45" selection-start="16" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -394,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/js/modules/portfolio/views/personal-projects/personal-projects-2015.html" />
-        <option value="$PROJECT_DIR$/app/js/modules/portfolio/views/personal-projects/personal-projects-2014.html" />
         <option value="$PROJECT_DIR$/app/js/modules/portfolio/views/graphic-design/portfolio-graphic-2007.html" />
         <option value="$PROJECT_DIR$/app/js/modules/portfolio/views/graphic-design/portfolio-graphic-2008.html" />
         <option value="$PROJECT_DIR$/app/js/modules/portfolio/views/graphic-design/portfolio-graphic-2009.html" />
@@ -438,13 +158,15 @@
         <option value="$PROJECT_DIR$/backend-app/js/app.js" />
         <option value="$PROJECT_DIR$/views/index-backend.ejs" />
         <option value="$PROJECT_DIR$/backend-app/index.html" />
-        <option value="$PROJECT_DIR$/backend-app/js/backend-app.js" />
-        <option value="$PROJECT_DIR$/views/login/login.ejs" />
         <option value="$PROJECT_DIR$/config/passport.js" />
-        <option value="$PROJECT_DIR$/views/partials/footer-backend.ejs" />
         <option value="$PROJECT_DIR$/views/members/members-backend.ejs" />
-        <option value="$PROJECT_DIR$/views/partials/header-backend.ejs" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/views/login/login.ejs" />
+        <option value="$PROJECT_DIR$/backend-app/js/modules/members/js/controllers.js" />
+        <option value="$PROJECT_DIR$/backend-app/js/modules/members/membersModule.js" />
+        <option value="$PROJECT_DIR$/views/partials/header-backend.ejs" />
+        <option value="$PROJECT_DIR$/backend-app/js/backend-app.js" />
+        <option value="$PROJECT_DIR$/views/partials/footer-backend.ejs" />
       </list>
     </option>
   </component>
@@ -607,6 +329,94 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cristiandrincu-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cristiandrincu-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cristiandrincu-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cristiandrincu-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="members" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cristiandrincu-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cristiandrincu-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="members" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cristiandrincu-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cristiandrincu-com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -729,7 +539,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.283084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40621403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -783,16 +593,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/modules/contact/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/modules/contact/views/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.26217228" vertical-offset="15" max-vertical-offset="840" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/modules/about/views/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="67" selection-start="37" selection-end="67" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="765" />
@@ -908,11 +708,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/modules/home/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/views/partials/_timeline.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="35" selection-start="421" selection-end="421" vertical-scroll-proportion="0.2753978" vertical-offset="0" max-vertical-offset="840" />
@@ -923,11 +718,6 @@
         <state line="10" column="20" selection-start="430" selection-end="434" vertical-scroll-proportion="0.18359853" vertical-offset="0" max-vertical-offset="817">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/modules/home/homeModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/js/controllers.js">
@@ -969,35 +759,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/portfolioModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.64209276" vertical-offset="0" max-vertical-offset="1440" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="9" selection-start="740" selection-end="741" vertical-scroll-proportion="0.5499368" vertical-offset="0" max-vertical-offset="791">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="16" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="28" selection-start="1766" selection-end="1780" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="8445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-app/js/backend-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841">
           <folding />
         </state>
       </provider>
@@ -1009,44 +773,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/passport.js">
+    <entry file="file://$PROJECT_DIR$/views/members/backend-panel.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="22" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="870">
+        <state line="45" column="34" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.8261934" vertical-offset="0" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/modules/contact/contactModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/modules/contact/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="22" selection-start="78" selection-end="78" vertical-scroll-proportion="0.01783591" vertical-offset="0" max-vertical-offset="841">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/login/login.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="500" selection-end="887" vertical-scroll-proportion="-11.291667" vertical-offset="29" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/footer-backend.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="466" selection-end="466" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="285">
+        <state line="11" column="59" selection-start="494" selection-end="494" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="12" selection-start="1848" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="329" max-vertical-offset="1245">
+        <state line="70" column="12" selection-start="1848" selection-end="1854" vertical-scroll-proportion="1.2485137" vertical-offset="0" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/members/backend-panel.ejs">
+    <entry file="file://$PROJECT_DIR$/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="34" selection-start="2511" selection-end="2511" vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="870">
+        <state line="43" column="22" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.73246133" vertical-offset="29" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="267" selection-end="275" vertical-scroll-proportion="0.17835909" vertical-offset="0" max-vertical-offset="841">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/modules/home/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/modules/home/homeModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="195" selection-end="195" vertical-scroll-proportion="0.05350773" vertical-offset="0" max-vertical-offset="841">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/portfolioModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.64209276" vertical-offset="0" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/modules/team/teamModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-app/js/modules/members/membersModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="45" selection-start="16" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-app/js/modules/members/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-app/js/backend-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="523" column="0" selection-start="20531" selection-end="20589" vertical-scroll-proportion="-10.041667" vertical-offset="7604" max-vertical-offset="8445">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/header-backend.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.2386781" vertical-offset="0" max-vertical-offset="817">
+        <state line="16" column="21" selection-start="632" selection-end="632" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/footer-backend.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="305" selection-end="305" vertical-scroll-proportion="0.12851897" vertical-offset="0" max-vertical-offset="817">
           <folding />
         </state>
       </provider>
