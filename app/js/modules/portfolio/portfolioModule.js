@@ -5,40 +5,42 @@ angular.module('cristiandrincu.portfolioModule', [
 		'ui.router'])
 	.config(['$stateProvider', '$locationProvider', function($stateProvider){
 
+		$stateProvider.state('projectDetail', {
+			url: '/project-detail/:id',
+			templateUrl: 'js/modules/portfolio/views/portfolio-details.html',
+			controller: 'PortfolioDetailsController'
+		});
+
 		$stateProvider.state('allProjects', {
 			url: '/portfolio?year&type',
 			templateUrl: 'js/modules/portfolio/views/partials/portfolio.html',
 			controller: 'PortfolioController',
 			abstract: true
-		}).state('projectDetail', {
-				url: '/project-detail/:id',
-				templateUrl: 'js/modules/portfolio/views/portfolio-details.html',
-				controller: 'PortfolioDetailsController'
 		}).state('allProjects.projects2007', {
 				url: '',
 				templateUrl: 'js/modules/portfolio/views/portfolio/portfolio-loading-template.html',
 				controller: 'PortfolioController'
 		}).state('allProjects.projects2008', {
-				url: '/projects/2008?year&type',
+				url: '/2008?year&type',
 				templateUrl: 'js/modules/portfolio/views/portfolio/portfolio-loading-template.html',
 				controller: 'PortfolioController'
 		}).state('allProjects.projects2009', {
-				url: '/projects/2009?year&type',
+				url: '/2009?year&type',
 				templateUrl: 'js/modules/portfolio/views/portfolio/portfolio-loading-template.html',
 				controller: 'PortfolioController'
 		}).state('allProjects.projects2010', {
-				url: '/projects/2010?year&type',
+				url: '/2010?year&type',
 				templateUrl: 'js/modules/portfolio/views/portfolio/portfolio-loading-template.html',
 				controller: 'PortfolioController'
 		}).state('allProjects.projects2011', {
-				url: '/projects/2011?year&type',
+				url: '/2011?year&type',
 				templateUrl: 'js/modules/portfolio/views/portfolio/portfolio-loading-template.html',
 				controller: 'PortfolioController'
 		}).state('allProjects.projects2012', {
-				url: '/projects/2012?year&type',
+				url: '/2012?year&type',
 				templateUrl: 'js/modules/portfolio/views/portfolio/portfolio-loading-template.html',
 				controller: 'PortfolioController'
-		})
+		});
 
 		$stateProvider.state('allGraphicsProjects', {
 			url: '/projects-graphic-design?year&type',

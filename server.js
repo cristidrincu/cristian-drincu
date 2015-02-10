@@ -38,6 +38,10 @@ app.get('/', function(req, res) {
 	res.sendFile(__dirname + '/app/index.html');
 });
 
+app.get('/backend', function(req, res){
+	res.sendFile(_dirname + '/views/login/login.ejs')
+});
+
 
 app.listen(app.get('port'), function(){
 	console.log('App listening on port ' + app.get('port'));
