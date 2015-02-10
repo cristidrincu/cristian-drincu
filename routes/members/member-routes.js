@@ -5,7 +5,7 @@ var app = module.exports = express();
 
 app.route('/backend/add-new-member')
 	.get(function(req, res){
-		res.render('members/members-backend.ejs')
+		res.render('members/backend-panel.ejs')
 	})
 	.post(function(req, res){
 		var member = new Member();

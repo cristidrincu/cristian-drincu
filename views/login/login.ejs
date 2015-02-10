@@ -1,1 +1,47 @@
-<h1>Login page</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cristiandrincu.com - Backend Section</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Cristian Drincu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=0">
+    <meta name="description" content="The Portfolio and Work Log of Cristian Drincu">
+
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/animate/animate.css"/>
+
+    <script src="lib/jquery/jquery-2.1.3.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-resource.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+
+    <script src="js/backend-app.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="col-sm-6 col-sm-offset-3">
+        <h1><span class="fa fa-sign-in"></span> Login</h1>
+
+        <!-- LOGIN FORM -->
+        <form action="/backend" method="post">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" class="form-control" name="email">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+
+            <button type="submit" class="btn btn-warning btn-lg">Login</button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
