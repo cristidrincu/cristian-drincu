@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	var totalSlides = 5;
 
-	$('#right-scroll-button').click(function(event) {
+	$(document).on("click", "#right-scroll-button", function(){
 		event.preventDefault();
 
 		$('.active-skill-text').stop(true, true).fadeOut(1000).removeClass('active-skill-text');
@@ -11,7 +11,7 @@ $(document).ready(function(){
 		}, "fast").removeClass('active-icon-skill');
 
 		if(totalSlides == 1){
-		$('#container-years').animate({
+			$('#container-years').animate({
 				marginLeft: "+=0"
 			}, "fast");
 		}else {
@@ -22,7 +22,7 @@ $(document).ready(function(){
 		}
 	});
 
-	$('#left-scroll-button').click(function(event) {
+	$(document).on("click", "#left-scroll-button", function(){
 		event.preventDefault();
 
 		$('.active-skill-text').stop(true, true).fadeOut(1000).removeClass('active-skill-text');
@@ -31,7 +31,7 @@ $(document).ready(function(){
 		}, "fast").removeClass('active-icon-skill');
 
 		if(totalSlides == 5){
-		$('#container-years').animate({
+			$('#container-years').animate({
 				marginLeft: "+=0"
 			}, "fast");
 		}else{

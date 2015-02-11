@@ -5,38 +5,25 @@ $(document).ready(function(){
 	selectedElement.addClass('active-btn');
 	$('#synopsis-team').stop(true, true).slideDown().addClass('slided-element');
 
-	$('#btn-discover-my-team').on({
-		click: function(){
-			selectedElement.removeClass('active-btn');
-			selectedElement = $(this);
-			selectedElement.addClass('active-btn');
-
-			$('.slided-element').slideUp();
-			$('#synopsis-team').stop(true, true).slideDown().addClass('slided-element');
-		}
-	});
-
-	$('#btn-discover-my-friends').on({
-		click: function(){
-			selectedElement.removeClass('active-btn');
-			selectedElement = $(this);
-			selectedElement.addClass('active-btn');
-
-			$('.slided-element').slideUp();
-			$('#synopsis-friends').stop(true, true).slideDown().addClass('slided-element');
-		}
-	});
-
-	$('#btn-discover-our-mission').on('click', function(){
+	$(document).on("click", "#btn-discover-my-team", function(){
 		selectedElement.removeClass('active-btn');
 		selectedElement = $(this);
 		selectedElement.addClass('active-btn');
 
 		$('.slided-element').slideUp();
-		$('#synopsis-story').stop(true, true).slideDown().addClass('slided-element');
+		$('#synopsis-team').stop(true, true).slideDown().addClass('slided-element');
 	});
 
-	$('#btn-discover-our-goal').on('click', function(){
+	$(document).on("click", "#btn-discover-my-friends", function(){
+		selectedElement.removeClass('active-btn');
+		selectedElement = $(this);
+		selectedElement.addClass('active-btn');
+
+		$('.slided-element').slideUp();
+		$('#synopsis-friends').stop(true, true).slideDown().addClass('slided-element');
+	});
+
+	$(document).on("click", "#btn-discover-our-goal", function(){
 		selectedElement.removeClass('active-btn');
 		selectedElement = $(this);
 		selectedElement.addClass('active-btn');
