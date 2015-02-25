@@ -1,8 +1,7 @@
 .portfolio-container{
     position: relative;
-    padding-top: 10px;
+    padding-top: 100px;
     width: 100%;
-    min-height: 100%;
 }
 
 .project-title{
@@ -12,6 +11,10 @@
 
 .container-project-details{
     /*margin-top: 25px;*/
+}
+
+.container-details-about-project{
+    padding-top: 100px;
 }
 
 .project-image-container{

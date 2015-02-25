@@ -1,16 +1,42 @@
-<div class="col-md-5 col-md-offset-1 mission-container">
-	<h1 class="beliefs-h1-small">I’M LOOKING FOR</h1>
-	<h1 class="beliefs-h1-large">PROGRESS</h1>
-	<h1 class="beliefs-h1-small last-in-motto">NOT PERFECTION</h1>
-
-	<p>
-		Since the first time I started developing projects in Macromedia Flash, I wanted to put on screen the ideas that I thought of.
-		Back then, however, I turned to some other friend or person to help me bind the gap from my animations and my UI to the backend data,
-		whether it was stored in XML files or MySQL.
-	</p>
-	<p>
-		It was then that I decided my mission is to learn that as well, so I will be able to work flawlessly on both the UI and the backend.
-	</p>
-
+<div class="container-fluid about-mission-options">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<div class="col-sm-4 col-md-4 col-lg-4">
+				<h1 id="btn-discover-mission" ng-controller="MissionController" ng-click="loadMissionView()">
+					<span class="my-mission"><strong class="highlighted-text-section">1. MY MISSION</strong></span>
+				</h1>
+			</div>
+			<div class="col-sm-4 col-md-4 col-lg-4">
+				<h1 id="btn-discover-beliefs" ng-controller="BeliefsController" ng-click="loadBeliefsView()">
+					<span class="my-mission"><span class="number-skill">2.</span> MY</span> <strong class="highlight-text">BELIEFS</strong>
+				</h1>
+			</div>
+			<div class="col-ms-4 col-md-4 col-lg-4">
+				<h1 id="btn-discover-skills" ng-controller="SkillsController" ng-click="loadSkillsTimeline()">
+					<span class="my-mission"><span class="number-skill">3.</span> MY</span> <strong class="highlight-text">SKILLS</strong>
+				</h1>
+			</div>
+		</div>
+	</div>
 </div>
-<div class="col-md-1"></div>
+<div class="container-fluid mission-container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-6">
+				<h1 class="beliefs-h1-small">I’M LOOKING FOR</h1>
+				<h1 class="beliefs-h1-large">PROGRESS</h1>
+				<h1 class="beliefs-h1-small last-in-motto">NOT PERFECTION</h1>
+			</div>
+			<div class="col-md-offset-1 col-md-5">
+				<p>
+					Since the first time I started developing projects in Macromedia Flash, I wanted to put on screen the ideas that I thought of.
+					Back then, however, I turned to some other friend or person to help me bind the gap from my animations and my UI to the backend data,
+					whether it was stored in XML files or MySQL.
+				</p>
+				<p>
+					It was then that I decided my mission is to learn that as well, so I will be able to work flawlessly on both the UI and the backend.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

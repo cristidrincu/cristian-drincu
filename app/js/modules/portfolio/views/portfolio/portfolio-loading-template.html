@@ -1,22 +1,46 @@
-<div class="col-sm-4 col-md-2 container-main-project-teaser-images" ng-repeat="project in projects track by $index">
+<div content-loading="loadingProjects"></div>
+<div class="container-fluid portfolio-container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12">
+			<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+					<div ng-include src="'js/modules/portfolio/views/partials/_sidebar.html'"></div>
+			</div>
+			<div class="col-xs-8 col-sm-8 col-md-10">
+				<div ng-if="portfolioType == 'web development'">
+					<div ng-include="'js/modules/portfolio/views/partials/_timeline.html'"></div>
+				</div>
+				<div ng-if="portfolioType == 'graphic design'">
+					<div ng-include="'js/modules/portfolio/views/partials/_timeline-graphics-projects.html'"></div>
+				</div>
+				<div ng-if="portfolioType == 'personal'">
+					<div ng-include="'js/modules/portfolio/views/partials/_timeline-personal-projects.html'"></div>
+				</div>
+				<div class="row container-project-details">
+					<div class="col-sm-4 col-md-2 container-main-project-teaser-images" ng-repeat="project in projects track by $index">
 
-	<h3 class="project-title">{{ project.name }}</h3>
-	<p class="project-type-title">Project type: {{ project.type }}</p>
+						<h3 class="project-title">{{ project.name }}</h3>
+						<p class="project-type-title">Project type: {{ project.type }}</p>
 
-	<div class="project-teaser-image-container" ng-if="portfolioType == 'web development'">
-		<img class="project-teaser-image" ng-src="img/portfolio/web-development/{{ project.projectTeaserImage }}"/>
+						<div class="project-teaser-image-container" ng-if="portfolioType == 'web development'">
+							<img class="project-teaser-image" ng-src="img/portfolio/web-development/{{ project.projectTeaserImage }}"/>
+						</div>
+
+						<div class="project-teaser-image-container" ng-if="portfolioType == 'graphic design'">
+							<img class="project-teaser-image" ng-src="img/portfolio/graphic/{{ project.projectTeaserImage }}"/>
+						</div>
+
+						<div class="project-teaser-image-container" ng-if="portfolioType == 'personal'">
+							<img class="project-teaser-image" ng-src="img/portfolio/personal/{{ project.projectTeaserImage }}"/>
+						</div>
+
+						<p class="project-description-teaser">{{ project.description }}</p>
+
+						<br class="clearFloats"/>
+						<a style="position: absolute; bottom: 0; left:0" ui-sref="projectDetail( {id: project._id} )" class="btn btn-info load-project">View Project</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
-	<div class="project-teaser-image-container" ng-if="portfolioType == 'graphic design'">
-		<img class="project-teaser-image" ng-src="img/portfolio/graphic/{{ project.projectTeaserImage }}"/>
-	</div>
-
-	<div class="project-teaser-image-container" ng-if="portfolioType == 'personal'">
-		<img class="project-teaser-image" ng-src="img/portfolio/personal/{{ project.projectTeaserImage }}"/>
-	</div>
-
-	<p class="project-description-teaser">{{ project.description }}</p>
-
-	<br class="clearFloats"/>
-	<a style="position: absolute; bottom: 0; left:0" ui-sref="projectDetail( {id: project._id} )" class="btn btn-info load-project">View Project</a>
 </div>
+

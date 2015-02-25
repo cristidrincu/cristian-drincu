@@ -2,8 +2,7 @@
     background-color: #fff;
     width:100%;
     min-height: 100%;
-    padding-bottom: 200px;
-    margin-bottom: 200px;
+    padding-top: 100px;
 }
 
 .globe-container{
@@ -28,7 +27,6 @@
 .container-team-friends-text h1{
     font-size: 70px;
     margin: 0;
-    /*color: #d7d7d7;*/
 }
 
 .container-text-globe p{
@@ -89,5 +87,19 @@
 }
 #btn-discover-my-team:hover, #btn-discover-my-friends:hover, #btn-discover-our-mission:hover, #btn-discover-our-goal:hover{
     cursor: pointer;
+}
+
+.sidebar-team{
+    -webkit-animation: 1s fadeInLeft ease;
+    -moz-animation: 1s fadeInLeft ease;
+    -o-animation: 1s fadeInLeft ease;
+    animation: 1s fadeInLeft ease;
+}
+
+.main-container-team-member{
+    -webkit-animation: 1s fadeInRight ease;
+    -moz-animation: 1s fadeInRight ease;
+    -o-animation: 1s fadeInRight ease;
+    animation: 1s fadeInRight ease;
 }
 

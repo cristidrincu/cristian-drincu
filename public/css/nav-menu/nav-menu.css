@@ -32,10 +32,6 @@
     margin-left: 110px;
 }
 
-.nav-menu ul li a.active{
-    color: #2ac5c6;
-}
-
 .nav-menu ul li a{
     color: #7a7880;
     text-decoration: none;

@@ -1,35 +1,22 @@
 angular.module('cristiandrincu.about.controllers', [])
 	.controller('AboutController', ['$scope', '$state', function($scope, $state){
 
-		$scope.loadDefaultTemplate = true;
-		$scope.defaultTemplate =
-			{
-				name: 'about.html', url: 'js/modules/about/views/about.html'
-			};
-
-		$scope.templates =
-			[
-				{ name: 'about.html', url: 'js/modules/about/views/about.html' },
-				{ name: 'mission.html', url: 'js/modules/about/views/mission.html' },
-				{ name: 'beliefs.html', url: 'js/modules/about/views/beliefs.html'}
-			]
-
-		$scope.loadTemplate = function(templateNumber){
-			$scope.loadDefaultTemplate = false;
-			switch (templateNumber){
-				case 0:
-					$scope.template = $scope.templates[0];
-				break;
-				case 1:
-					$scope.template = $scope.templates[1]
-				break;
-				case 2:
-					$scope.template = $scope.templates[2];
-				break;
-			}
-		}
-
 		$scope.loadAboutView = function(){
-			$state.go('aboutPage');
+			$state.go('aboutPage.aboutMe');
 		}
-	}]);
+	}])
+	.controller('MissionController', ['$scope', '$state', function($scope, $state){
+		$scope.loadMissionView = function(){
+			$state.go('aboutPage.aboutMyMission');
+		}
+	}])
+	.controller('BeliefsController', ['$scope', '$state', function($scope, $state){
+		$scope.loadBeliefsView = function(){
+			$state.go('aboutPage.aboutMyBeliefs')
+		}
+	}])
+	.controller('SkillsController', ['$scope', '$state', function($scope, $state){
+		$scope.loadSkillsTimeline = function(){
+			$state.go('aboutPage.aboutMySkills');
+		}
+	}])

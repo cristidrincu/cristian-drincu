@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	var totalSlides = 5;
 
-	$(document).on("click", "#right-scroll-button", function(){
+	$(document).on("click", "#right-scroll-button", function(event){
 		event.preventDefault();
 
 		$('.active-skill-text').stop(true, true).fadeOut(1000).removeClass('active-skill-text');
@@ -22,7 +22,7 @@ $(document).ready(function(){
 		}
 	});
 
-	$(document).on("click", "#left-scroll-button", function(){
+	$(document).on("click", "#left-scroll-button", function(event){
 		event.preventDefault();
 
 		$('.active-skill-text').stop(true, true).fadeOut(1000).removeClass('active-skill-text');
