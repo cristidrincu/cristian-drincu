@@ -1,9 +1,16 @@
-.time-line-container{
+.time-line-container, .time-line-container-years-skills{
     padding-top: 32px;
     -webkit-animation: 0.5s fadeInDown ease;
     -moz-animation: 0.5s fadeInDown ease;
     -o-animation: 0.5s fadeInDown ease;
     animation: 0.5s fadeInDown ease;
+}
+
+.time-line-container-years-skills{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 .year-container{

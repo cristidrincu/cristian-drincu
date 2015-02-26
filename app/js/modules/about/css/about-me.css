@@ -1,10 +1,9 @@
-.skills-container h1{
-    font-size: 70px;
-    margin:0
-}
-
 .about-container{
     width: 100%;
+}
+
+.year-container{
+    margin-left: 100px;
 }
 
 .container-sidebar{
@@ -130,7 +129,6 @@
     height: 900px;
     padding-top: 100px;
     /*left: -1px;*/
-    background-color: #000;
     -webkit-animation: 0.5s fadeIn ease;
     -moz-animation: 0.5s fadeIn ease;
     -o-animation: 0.5s fadeIn ease;
