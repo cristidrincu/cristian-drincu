@@ -87,9 +87,4 @@ angular.module('cristiandrincu.portfolioModule', [
 				templateUrl: 'js/modules/portfolio/views/portfolio/portfolio-loading-template.html',
 				controller: 'PortfolioController'
 		});
-	}])
-	.run(function($rootScope, $location){
-		$rootScope.$on('$stateChangeStart', function(event, toState, toParams){
-			console.log(toParams);
-		});
-	});
+	}]);
