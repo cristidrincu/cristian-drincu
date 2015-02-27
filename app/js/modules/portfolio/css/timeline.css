@@ -13,7 +13,7 @@
     margin-top: 20px;
 }
 
-.year-container{
+.year-container, .year-container-about-skills{
     width: 75px;
     height: 75px;
     border-radius: 100px;
@@ -25,7 +25,11 @@
     color: #d4d4d4;
 }
 
-.active-year, .year-container:hover{
+.year-container-about-skills{
+    margin-right: 0;
+}
+
+.active-year, .year-container:hover, .year-container-about-skills:hover{
     background-color: #2ac5c6;
     border: 1px solid #2ac5c6;
     color: #fff;
