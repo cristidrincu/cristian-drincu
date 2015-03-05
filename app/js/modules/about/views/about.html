@@ -11,17 +11,17 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-lg-12">
 						<div class="col-sm-4 col-md-4 col-lg-4">
-							<h1 id="btn-discover-mission" ng-controller="MissionController" ng-click="loadMissionView()">
+							<h1 id="btn-discover-mission" ui-sref="aboutPage.aboutMyMission">
 								<span class="my-mission"><span class="number-skill">1.</span> MY</span> <strong class="highlight-text">MISSION</strong>
 							</h1>
 						</div>
 						<div class="col-sm-4 col-md-4 col-lg-4">
-							<h1 id="btn-discover-beliefs" ng-controller="BeliefsController" ng-click="loadBeliefsView()">
+							<h1 id="btn-discover-beliefs" ui-sref="aboutPage.aboutMyBeliefs">
 								<span class="my-mission"><span class="number-skill">2.</span> MY</span> <strong class="highlight-text">BELIEFS</strong>
 							</h1>
 						</div>
-						<div class="col-ms-4 col-md-4 col-lg-4">
-							<h1 id="btn-discover-skills" ng-controller="SkillsController" ng-click="loadSkillsTimeline()">
+						<div class="col-sm-4 col-md-4 col-lg-4">
+							<h1 id="btn-discover-skills" ui-sref="aboutPage.aboutMySkills">
 								<span class="my-mission"><span class="number-skill">3.</span> MY</span> <strong class="highlight-text">SKILLS</strong>
 							</h1>
 						</div>
@@ -29,45 +29,8 @@
 				</div>
 			</div>
 				<div class="description-container container">
-					<div class="row">
-						<div class="col-md-4">
-							<p>I've been busy programming and designing apps since 2002. I've started by building
-								my
-								faculty's first multimedia CD, crafted with Macromedia Flash.
-								After a TV application that I've built from scratch using Flash, I turned my eyes towards the front-end for
-								the web: HTML, CSS and Javascript.
-							Jquery followed soon after...
-							<p>
-								However, there was something missing. I wanted to build an entire app by
-							myself, backend included. I first
-								turned to PHP and later, while studying Computer Science, I discovered Java,
-								which helped me build my first
-							desktop application using Swing and JDBC. From there on out, the sky was the limit.
-							</p>
-						</div>
-						<div class="col-md-4">
-							<p>
-								I consider myself to be a complete programmer, meaning that I can take a concept
-								and
-								implement it on both sides of the development cycle: frontend
-								as well as the backend.
-							</p>
-							<p>
-								In 2007 I've founded my own company, Globe-Studios. This web project is a showcase
-								of
-								the work completed during 2007-2012, as well as a
-								presentation of the team that developed the projects.
-							</p>
-						</div>
-						<div class="col-md-4">
-							<p>
-								Currently I'm involved in building fullstack javascript applications
-							using NodeJS, Express, MongoDB and AngularJS.
-							</p>
-						</div>
-					</div>
+					<div ng-include="'js/modules/about/views/partials-text/about-me-intro-text.html'"></div>
 				</div>
-
 		</div>
 	</div>
 </div>

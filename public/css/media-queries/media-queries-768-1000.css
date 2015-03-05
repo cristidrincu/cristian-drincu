@@ -10,7 +10,7 @@
     }
 
     .home-page-container{
-        padding-top: 30px;
+        padding-top: 130px;
     }
 
     #nav-bar{
@@ -118,5 +118,33 @@
 
     .project-teaser-image-large{
         width: 100%;
+    }
+
+    #btn-discover-mission, #btn-discover-beliefs, #btn-discover-skills{
+        max-width: 100%;
+        left: 0;
+        font-size: 28px;
+    }
+
+    .about-mission-options{
+        padding-top: 150px;
+        left: 0;
+    }
+
+    .container-teaser-text{
+        max-width: 100%;
+    }
+
+    .time-line-container-years-skills{
+        max-width: 100%;
+        padding-left: 100px;
+    }
+
+    .year-container-about-skills{
+        margin-left: 0;
+    }
+
+    .container-year-teaser-text{
+        max-width: 100%;
     }
 }
