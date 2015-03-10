@@ -9,4 +9,4 @@ angular.module('cristiandrincu',
 	])
 	.run(['$state', function($state){
 		$state.go('homePage');
-	}]);
+	}])

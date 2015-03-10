@@ -5,4 +5,6 @@ angular.module('cristiandrincu.portfolio.services', [])
 				method: 'PUT'
 			}
 		})
-	}]).value('API_ENDPOINT', 'https://cristiandrincu.herokuapp.com/api/portfolio/:id');
+	}])
+	.value('API_ENDPOINT', 'https://cristiandrincu.herokuapp.com/api/portfolio/:id')
+
