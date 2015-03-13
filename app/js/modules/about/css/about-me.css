@@ -39,16 +39,20 @@
     display:none;
 }
 
-#btn-discover-mission:hover, #btn-discover-beliefs:hover, #btn-discover-skills:hover{
+#btn-discover-mission:hover, #btn-discover-mission-small:hover, #btn-discover-beliefs:hover, #btn-discover-beliefs-small:hover, #btn-discover-skills:hover, #btn-discover-skills-small:hover{
     cursor: pointer;
 }
 
-#btn-discover-mission, #btn-discover-beliefs, #btn-discover-skills{
+#btn-discover-mission, #btn-discover-beliefs,  #btn-discover-skills{
     float: none;
     font-size: 50px;
     margin: 0;
     position: relative;
     width: 100%;
+}
+
+#btn-discover-mission-small, #btn-discover-beliefs-small, #btn-discover-skills-small {
+    font-size: 35px;
 }
 
 #btn-discover-mission{
@@ -70,6 +74,12 @@
     color: #2ac5c6;
 }
 
+.description-container {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .img-container{
     padding-top: 75px;
     padding-bottom: 40px;
@@ -83,12 +93,13 @@
 }
 
 .about-section-options{
-    width: inherit;
-    text-align: center;
+    width: 980px;
     -webkit-animation: 1s fadeInLeft ease;
     -moz-animation: 1s fadeInLeft ease;
     -o-animation: 1s fadeInLeft ease;
     animation: 1s fadeInLeft ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-mission-options{
