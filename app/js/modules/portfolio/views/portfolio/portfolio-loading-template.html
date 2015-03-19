@@ -22,15 +22,15 @@
 						<p class="project-type-title">Project type: {{ project.type }}</p>
 
 						<div class="project-teaser-image-container" ng-if="portfolioType == 'web development'">
-							<img class="project-teaser-image" ng-src="img/portfolio/web-development/{{ project.projectTeaserImage }}"/>
+							<a ui-sref="projectDetail( {id: project._id} )"><img class="project-teaser-image" ng-src="img/portfolio/web-development/{{ project.projectTeaserImage }}"/></a>
 						</div>
 
 						<div class="project-teaser-image-container" ng-if="portfolioType == 'graphic design'">
-							<img class="project-teaser-image" ng-src="img/portfolio/graphic/{{ project.projectTeaserImage }}"/>
+							<a ui-sref="projectDetail( {id: project._id} )"><img class="project-teaser-image" ng-src="img/portfolio/graphic/{{ project.projectTeaserImage }}"/></a>
 						</div>
 
 						<div class="project-teaser-image-container" ng-if="portfolioType == 'personal'">
-							<img class="project-teaser-image" ng-src="img/portfolio/personal/{{ project.projectTeaserImage }}"/>
+							<a ui-sref="projectDetail( {id: project._id} )"><img class="project-teaser-image" ng-src="img/portfolio/personal/{{ project.projectTeaserImage }}"/></a>
 						</div>
 
 						<p class="project-description-teaser">{{ project.description }}</p>

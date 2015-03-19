@@ -1,77 +1,90 @@
 <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12 container-details-about-project">
-			<div class="col-md-2 menu-project-details-sidebar">
+	<div class="container-portfolio-images-middle">
+		<div class="container-absolute-portfolio-images">
+			<div ng-if="portfolioDetail.type == 'web development'">
+					<ul>
+						<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/{{ portfolioDetail.projectMainImage }}"/></li>
+						<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
+							<a data-ng-click="openLightboxModal($index)">
+								<img class="secondary-image-portfolio-project img-thumbnail" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
+							</a>
+						</li>
+					</ul>
+			</div>
+			<div ng-if="portfolioDetail.type == 'graphic design'">
 				<ul>
-					<li>
-						<p class="project-category-identifier">PROJECT DESCRIPTION</p>
-						<p class="project-category-description">
-							{{ portfolioDetail.description }}
-						</p>
-					</li>
-					<li class="project-complexity-icon">
-						<p class="project-category-identifier">PROJECT COMPLEXITY</p>
-						<div class="container-project-complexity-{{ portfolioDetail.projectComplexity }}">
-							<p>{{ portfolioDetail.projectComplexity }}</p>
-						</div>
-					</li>
-					<li>
-						<p class="project-category-identifier">TEAM MEMBERS</p>
-						<ul class="container-team-members-project-detail">
-							<li ng-repeat="projectMember in portfolioDetail.projectMembers">
-								<img class="project-member" ng-src="img/avatars-team-project/{{ projectMember.avatarImage }}"/>
-							</li>
-						</ul>
+					<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/graphic/{{ portfolioDetail.projectMainImage }}"/></li>
+					<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
+						<a data-ng-click="openLightboxModal($index)">
+							<img class="secondary-image-portfolio-project img-thumbnail" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
+						</a>
 					</li>
 				</ul>
 			</div>
-			<div class="col-md-8 project-image-container">
-				<p class="project-category-identifier">PROJECT NAME: {{ portfolioDetail.name }}</p>
-				<div ng-if="portfolioDetail.type == 'web development'">
-					<div class="container-project-image-large">
-						<img class="project-teaser-image-large" ng-src="img/portfolio/{{ portfolioDetail.projectMainImage }}"/>
-					</div>
-				</div>
-				<div ng-if="portfolioDetail.type == 'graphic design'">
-					<div class="container-project-image-large">
-						<img class="project-teaser-image-large" ng-src="img/portfolio/graphic/{{ portfolioDetail.projectMainImage }}"/>
-					</div>
-				</div>
-				<div ng-if="portfolioDetail.type == 'personal'">
-					<div class="container-project-image-large">
-						<img class="project-teaser-image-large" ng-src="img/portfolio/personal/{{ portfolioDetail.projectMainImage }}"/>
-					</div>
-				</div>
+			<div ng-if="portfolioDetail.type == 'personal'">
+				<ul>
+					<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/personal/{{ portfolioDetail.projectMainImage }}"/></li>
+					<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
+						<a data-ng-click="openLightboxModal($index)">
+							<img class="secondary-image-portfolio-project img-thumbnail" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
+						</a>
+					</li>
+				</ul>
 			</div>
-			<div class="col-md-2 right-sidebar-project-details">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 container-details-about-project">
+			<!--new design starts here-->
+			<div class="col-sm-7 col-md-7 col-lg-7">
+				<h1 class="project-name">{{ portfolioDetail.name }}</h1>
+				<p class="project-description-full">{{ portfolioDetail.description }}</p>
+			</div>
+			<div class="col-sm-5 col-md-5 col-lg-5 container-github-online-status">
 				<div ng-if="portfolioDetail.projectWebLink.length > 0 && portfolioDetail.projectGitHubLink.length > 0 && portfolioDetail.type != 'graphic design'">
-					<p class="project-category-identifier project-status">STATUS: <a href="{{ portfolioDetail.projectWebLink }}" target="_blank" class="btn btn-success online-btn">ONLINE</a></p>
-					<p class="project-category-identifier project-status"><a href="{{ portfolioDetail.projectGitHubLink }}" target="_blank" class="btn btn-warning online-btn">VIEW ON GITHUB</a></p>
+					<ul class="list-github-online-status">
+						<li><p class="project-category-identifier project-status">STATUS: <a href="{{ portfolioDetail.projectWebLink }}" target="_blank">ONLINE</a></p></li>
+						<li><p class="project-category-identifier project-status"><a href="{{ portfolioDetail.projectGitHubLink }}" target="_blank"><i class="fa fa-github-square"></i> VIEW ON GITHUB</a></p></li>
+					</ul>
 				</div>
 				<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.projectGitHubLink.length > 0 && portfolioDetail.type != 'graphic design'">
-					<p class="project-category-identifier project-status"><a href="{{ portfolioDetail.projectGitHubLink }}" target="_blank" class="btn btn-success online-btn">VIEW ON GITHUB</a></p>
+					<ul class="list-github-online-status">
+						<li><p class="project-category-identifier project-status"><a href="{{ portfolioDetail.projectGitHubLink }}" target="_blank"><i class="fa fa-github-square"></i> VIEW ON GITHUB</a></p></li>
+					</ul>
 				</div>
 				<div ng-if="portfolioDetail.projectWebLink.length > 0 && portfolioDetail.projectGitHubLink == 0 && portfolioDetail.type != 'graphic design'" >
-					<p class="project-category-identifier project-status">STATUS: <a href="{{ portfolioDetail.projectWebLink }}" target="_blank" class="btn btn-success online-btn">ONLINE</a></p>
+					<ul class="list-github-online-status">
+						<li><p class="project-category-identifier project-status">STATUS: <a href="{{ portfolioDetail.projectWebLink }}" target="_blank">ONLINE</a></p></li>
+					</ul>
 				</div>
 				<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.projectGitHubLink == 0 && portfolioDetail.type != 'graphic design'">
 					<p class="project-category-identifier">Status: Offline</p>
 				</div>
-
-
-				<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.type == 'graphic design'">
-					<p class="project-category-identifier">Graphic Design Project</p>
-				</div>
-
-				<p class="project-category-identifier">TECHNOLOGIES USED</p>
-				<div class="row">
-					<div class="col-md-12">
-						<div ng-repeat="technology in portfolioDetail.technologiesUsed" class="col-xs-2 col-sm-2 col-md-6 technology-used">
-							<p class="technology-used-text">{{ technology }}</p>
-						</div>
-					</div>
+				<div ng-repeat="technology in portfolioDetail.technologiesUsed" class="col-xs-2 col-sm-2 col-md-6 technology-used">
+					<p class="technology-used-text">{{ technology }}</p>
 				</div>
 			</div>
+
+
+			<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.type == 'graphic design'">
+				<p class="project-category-identifier">Graphic Design Project</p>
+			</div>
+		</div>
+
+		<!--Bottom part of the portfolio detail-->
+		<div class="col-sm-12 col-md-12 col-lg-12 container-footer-portfolio-detail">
+			<div class="col-sm-6 col-md-6 col-lg-6 container-team-work-project">
+				<h1>WHO'S WORKED ON THIS: </h1>
+				<ul>
+					<li ng-repeat="projectMember in portfolioDetail.projectMembers">
+						<img class="project-member" data-ng-src="img/avatars-team-project/{{ projectMember.avatarImage }}"/>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-6 container-project-complexity-status">
+				<h1>COMPLEXITY: {{ portfolioDetail.projectComplexity }}</h1>
+			</div>
+		</div>
 		</div>
 	</div>
-</div>
+

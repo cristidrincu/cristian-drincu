@@ -9,18 +9,14 @@
     padding-top: 45px;
 }
 
-.menu-project-details-sidebar{
-    padding-top: 45px;
-}
-
-.menu-project-categories ul, .menu-project-details-sidebar ul{
+.menu-project-categories ul{
     margin:0;
     padding: 0;
     list-style: none;
     color: #2ac5c6;
 }
 
-.menu-project-categories ul li, .menu-project-details-sidebar ul li{
+.menu-project-categories ul li{
     margin-bottom: 20px;
 }
 
@@ -41,8 +37,6 @@
     width: 80%;
     font-size: 12px;
     color: #666666;
-    /*color: #8e9191;*/
-    /*color: #333;*/
     margin-top: 5px;
     margin-bottom: 10px;
 }

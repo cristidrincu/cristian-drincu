@@ -1,5 +1,5 @@
 angular.module('cristiandrincu.portfolio.controllers', [])
-	.controller('PortfolioController', ['$state', '$stateParams', '$scope', 'Portfolio', '$location', function ($state, $stateParams, $scope, Portfolio) {
+	.controller('PortfolioController', ['$state', '$stateParams', '$scope', 'Portfolio', '$location', 'Lightbox', function ($state, $stateParams, $scope, Portfolio) {
 		$scope.loadingProjects = true;
 		$scope.portfolioType = $stateParams.type;
 
@@ -9,8 +9,8 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 				return project.published === $stateParams.year && project.type === $stateParams.type;
 			});
 
-			 $scope.projects = projects;
-			 $scope.loadingProjects = false;
+			$scope.projects = projects;
+		  $scope.loadingProjects = false;
 		});
 
 		$scope.loadGraphicsProjects = function(){
@@ -26,8 +26,26 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 		}
 
 	}])
-	.controller('PortfolioDetailsController', ['$stateParams', '$scope', 'Portfolio', function ($stateParams, $scope, Portfolio) {
-		Portfolio.get({id: $stateParams.id}, function(project){
-			$scope.portfolioDetail = project;
+	.controller('PortfolioDetailsController', ['$stateParams', '$scope', 'Portfolio', 'Lightbox', function ($stateParams, $scope, Portfolio, Lightbox) {
+		$scope.portfolioDetail = Portfolio.get({id: $stateParams.id}, function(project){
+			return project;
 		});
+
+		//this refers to the controller in our case. when using this inside a $scope function, this refers to the $scope
+		this.retrieveImages = function(){
+			var images = [];
+			Portfolio.get({id: $stateParams.id}, function(project){
+				project.projectImages.forEach(function(image){
+					images.push(image);
+				});
+			});
+
+			return images;
+		}
+
+		$scope.images = this.retrieveImages();
+
+		$scope.openLightboxModal = function(index){
+			Lightbox.openModal($scope.images, index);
+		}
 	}]);

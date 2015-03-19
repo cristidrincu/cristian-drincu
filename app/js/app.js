@@ -5,7 +5,8 @@ angular.module('cristiandrincu',
 		'cristiandrincu.aboutModule',
 		'cristiandrincu.teamModule',
 		'cristiandrincu.portfolioModule',
-		'cristiandrincu.contactModule'
+		'cristiandrincu.contactModule',
+		'bootstrapLightbox'
 	])
 	.run(['$state', function($state){
 		$state.go('homePage');
