@@ -9,4 +9,12 @@
     .main-image-portfolio-project{
         margin-right: 10px;
     }
+
+    .container-team-work-project h1, .container-project-complexity-status h1{
+        font-size: 30px;
+    }
+
+    .container-team-work-project ul li {
+        margin-right: 10px;
+    }
 }
