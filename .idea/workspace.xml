@@ -2,68 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efdf785c-3904-4033-9b45-ea05413bbb68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-lightbox/angular-bootstrap-lightbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-lightbox/angular-bootstrap-lightbox.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/galeria1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/supertech.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/web-development/supertech-teaser.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/2d-animation.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/2d-animation.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/alessi.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/alessi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/alpha-constructii.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/alpha-constructii.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/arxiel-solar.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/arxiel-solar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/banat-tractor.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/banat-tractor.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/personal/banatica.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/personal/banatica.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/belissima-gold.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/belissima-gold.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/bipral.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/bipral.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/dads-classic-soda.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/dads-classic-soda.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/deva-music-center.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/deva-music-center.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/divani-sofa.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/divani-sofa.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/enerco-spa.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/enerco-spa.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/fildum-expert.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/fildum-expert.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/gereco.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/gereco.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/gittanos.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/gittanos.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/globe-studios-ver1.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/globe-studios-ver1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/globe-studios-ver2.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/globe-studios-ver2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/globe-studios-ver3.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/globe-studios-ver3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/guido-menato.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/guido-menato.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/hotel-lido.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/hotel-lido.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/izometal-confort.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/izometal-confort.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/kleeneze-2010.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/kleeneze-2010.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/krossover.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/krossover.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/locada-portegrandi.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/locada-portegrandi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/lorenza-bratu.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/lorenza-bratu.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/magus-consulting.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/magus-consulting.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/malvezi.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/malvezi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/marry-poppins.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/marry-poppins.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/medinski-art-gallery.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/medinski-art-gallery.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/medvarix.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/medvarix.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/miofides.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/miofides.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/mk-promo.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/mk-promo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/muntii-banatului.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/muntii-banatului.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/plast-dinamic.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/plast-dinamic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/pre-race.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/pre-race.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/probiss.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/probiss.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/roman-andr-construct.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/roman-andr-construct.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/san-marino-bienale.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/san-marino-bienale.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/personal/sc2-biografii.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/personal/sc2-biografii.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/personal/sc2-tournaments.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/personal/sc2-tournaments.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/personal/sc2-vidcasts-romania.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/personal/sc2-vidcasts-romania.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/scandaletti.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/scandaletti.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/side-trading.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/side-trading.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/sikes.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/sikes.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/simionato.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/simionato.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/space-harmony.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/space-harmony.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/sudotim.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/sudotim.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/personal/udemy-node-course.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/personal/udemy-node-course.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/portfolio/graphic/you-club-video.jpg" afterPath="$PROJECT_DIR$/public/img/portfolio/graphic/you-club-video.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/modules/portfolio/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/modules/portfolio/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/modules/portfolio/views/portfolio-details.html" afterPath="$PROJECT_DIR$/app/js/modules/portfolio/views/portfolio-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/modules/portfolio/views/portfolio/portfolio-loading-template.html" afterPath="$PROJECT_DIR$/app/js/modules/portfolio/views/portfolio/portfolio-loading-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/modules/portfolio/css/portfolio.css" afterPath="$PROJECT_DIR$/app/js/modules/portfolio/css/portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/modules/portfolio/css/sidebar.css" afterPath="$PROJECT_DIR$/app/js/modules/portfolio/css/sidebar.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrap/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cristiandrincu-com.iws" />
@@ -87,10 +144,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="85" selection-start="4969" selection-end="4969" vertical-scroll-proportion="-0.0" vertical-offset="1755" max-vertical-offset="2055">
+            <state line="117" column="85" selection-start="4969" selection-end="4969" vertical-scroll-proportion="1.2028985" vertical-offset="1091" max-vertical-offset="2055">
               <folding />
             </state>
           </provider>
@@ -105,10 +162,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio-details.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="portfolio-details.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/views/portfolio-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="10" selection-start="4135" selection-end="4135" vertical-scroll-proportion="0.6348548" vertical-offset="453" max-vertical-offset="1440">
+            <state line="71" column="10" selection-start="4135" selection-end="4135" vertical-scroll-proportion="-25.5" vertical-offset="453" max-vertical-offset="1440">
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -572,10 +629,10 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277559" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4055118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4055118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20537125" sideWeight="0.49942464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20537125" sideWeight="0.49942464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2079566" sideWeight="0.50057536" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -836,13 +893,6 @@
         <state line="17" column="45" selection-start="630" selection-end="656" vertical-scroll-proportion="0.25809717" vertical-offset="0" max-vertical-offset="1500" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="85" selection-start="4969" selection-end="4969" vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="2055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="22" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -881,7 +931,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/modules/portfolio/views/portfolio-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="10" selection-start="4135" selection-end="4135" vertical-scroll-proportion="0.6348548" vertical-offset="453" max-vertical-offset="1440">
+        <state line="71" column="10" selection-start="4135" selection-end="4135" vertical-scroll-proportion="-25.5" vertical-offset="453" max-vertical-offset="1440">
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -890,6 +940,13 @@
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="85" selection-start="4969" selection-end="4969" vertical-scroll-proportion="1.2028985" vertical-offset="1091" max-vertical-offset="2055">
+          <folding />
         </state>
       </provider>
     </entry>
