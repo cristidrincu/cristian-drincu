@@ -6,7 +6,7 @@
 						<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/{{ portfolioDetail.projectMainImage }}"/></li>
 						<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
 							<a data-ng-click="openLightboxModal($index)">
-								<img class="secondary-image-portfolio-project img-thumbnail" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
+								<img class="secondary-image-portfolio-project" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
 							</a>
 						</li>
 					</ul>
@@ -16,7 +16,7 @@
 					<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/graphic/{{ portfolioDetail.projectMainImage }}"/></li>
 					<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
 						<a data-ng-click="openLightboxModal($index)">
-							<img class="secondary-image-portfolio-project img-thumbnail" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
+							<img class="secondary-image-portfolio-project" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
 						</a>
 					</li>
 				</ul>
@@ -26,7 +26,7 @@
 					<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/personal/{{ portfolioDetail.projectMainImage }}"/></li>
 					<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
 						<a data-ng-click="openLightboxModal($index)">
-							<img class="secondary-image-portfolio-project img-thumbnail" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
+							<img class="secondary-image-portfolio-project" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
 						</a>
 					</li>
 				</ul>
