@@ -27,7 +27,9 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 
 	}])
 	.controller('PortfolioDetailsController', ['$stateParams', '$scope', 'Portfolio', 'Lightbox', function ($stateParams, $scope, Portfolio, Lightbox) {
+		$scope.loadingProjects = true;
 		$scope.portfolioDetail = Portfolio.get({id: $stateParams.id}, function(project){
+			$scope.loadingProjects = false;
 			return project;
 		});
 

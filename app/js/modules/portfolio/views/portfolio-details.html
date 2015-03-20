@@ -1,37 +1,7 @@
+<div content-loading="loadingProjects"></div>
 <div class="container-fluid">
 	<div class="container-portfolio-images-middle">
-		<div class="container-absolute-portfolio-images">
-			<div ng-if="portfolioDetail.type == 'web development'">
-					<ul>
-						<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/{{ portfolioDetail.projectMainImage }}"/></li>
-						<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
-							<a data-ng-click="openLightboxModal($index)">
-								<img class="secondary-image-portfolio-project" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
-							</a>
-						</li>
-					</ul>
-			</div>
-			<div ng-if="portfolioDetail.type == 'graphic design'">
-				<ul>
-					<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/graphic/{{ portfolioDetail.projectMainImage }}"/></li>
-					<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
-						<a data-ng-click="openLightboxModal($index)">
-							<img class="secondary-image-portfolio-project" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div ng-if="portfolioDetail.type == 'personal'">
-				<ul>
-					<li style="display: inline-block;"><img class="main-image-portfolio-project" data-ng-src="img/portfolio/personal/{{ portfolioDetail.projectMainImage }}"/></li>
-					<li style="display: inline-block;" data-ng-repeat="thumbnailImage in portfolioDetail.projectImages ">
-						<a data-ng-click="openLightboxModal($index)">
-							<img class="secondary-image-portfolio-project" data-ng-src="{{ thumbnailImage.thumbnailUrl }}"/>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
+		<project-images></project-images>
 	</div>
 	<div class="row">
 		<div class="col-md-12 container-details-about-project">
@@ -73,17 +43,8 @@
 
 		<!--Bottom part of the portfolio detail-->
 		<div class="col-sm-12 col-md-12 col-lg-12 container-footer-portfolio-detail">
-			<div class="col-sm-6 col-md-6 col-lg-6 container-team-work-project">
-				<h1>WHO'S WORKED ON THIS: </h1>
-				<ul>
-					<li ng-repeat="projectMember in portfolioDetail.projectMembers">
-						<img class="project-member" data-ng-src="img/avatars-team-project/{{ projectMember.avatarImage }}"/>
-					</li>
-				</ul>
-			</div>
-			<div class="col-sm-6 col-md-6 col-lg-6 container-project-complexity-status">
-				<h1>COMPLEXITY: {{ portfolioDetail.projectComplexity }}</h1>
-			</div>
+			<container-team-project></container-team-project>
+			<project-complexity></project-complexity>
 		</div>
 		</div>
 	</div>

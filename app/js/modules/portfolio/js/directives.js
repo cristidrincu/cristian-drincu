@@ -14,4 +14,22 @@ angular.module('cristiandrincu.portfolio.directives', [])
 					loadingContainer.appendChild(spinner.el);
 				}
 			}
-	});
+	})
+	.directive('containerTeamProject', function(){
+		return {
+			restrict: 'E',
+			templateUrl: 'js/modules/portfolio/views/directive-templates/project-team-members.html'
+		}
+	})
+	.directive('projectComplexity', function(){
+		return {
+			restrict: 'E',
+			templateUrl: 'js/modules/portfolio/views/directive-templates/project-complexity.html'
+		}
+	})
+	.directive('projectImages', function(){
+		return {
+			restrict: 'E',
+			templateUrl: 'js/modules/portfolio/views/directive-templates/portfolio-images.html'
+		}
+	})
