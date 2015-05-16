@@ -1,3 +1,5 @@
+"use strict";
+
 angular.module('cristiandrincu.portfolio.directives', [])
 	.directive('contentLoading', function(){
 			return {

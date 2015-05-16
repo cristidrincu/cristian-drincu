@@ -1,3 +1,5 @@
+"use strict";
+
 angular.module('cristiandrincu.about.controllers', [])
 	.controller('AboutController', ['$scope', '$state', function($scope, $state){
 

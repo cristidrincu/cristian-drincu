@@ -1,3 +1,5 @@
+"use strict";
+
 angular.module('cristiandrincu.aboutModule', ['cristiandrincu.about.controllers', 'cristiandrincu.about.directives', 'ui.router'])
 	.config(['$stateProvider', function($stateProvider){
 		$stateProvider.state('aboutPage', {
@@ -44,5 +46,5 @@ angular.module('cristiandrincu.aboutModule', ['cristiandrincu.about.controllers'
 		.state('aboutPage.aboutMySkills.skills2015', {
 				url: '/2015-a-fresh-start',
 				templateUrl: 'js/modules/about/views/partials/skills-2015.html'
-		})
+		});
 	}]);

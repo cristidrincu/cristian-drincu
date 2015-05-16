@@ -6,7 +6,7 @@ angular.module('cristiandrincu.portfolioModule', [
 		'cristiandrincu.portfolio.directives',
 		'ui.router'
 	])
-	.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider){
+	.config(['$stateProvider', function($stateProvider){
 
 		$stateProvider.state('allProjects', {
 			url: '/portfolio',
@@ -21,6 +21,4 @@ angular.module('cristiandrincu.portfolioModule', [
 				templateUrl: 'js/modules/portfolio/views/portfolio-details.html',
 				controller: 'PortfolioDetailsController'
 		});
-
-		$urlRouterProvider.otherwise("/portfolio/projects?year=2007&type=web development")
 	}]);
