@@ -44,3 +44,12 @@
 .logo-site:hover{
     cursor: pointer;
 }
+
+.glyphicon {
+    color: #2ac5c7;
+    font-size: 50px;
+}
+
+.glyphicon:hover {
+    cursor: pointer;
+}

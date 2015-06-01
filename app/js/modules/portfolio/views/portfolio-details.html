@@ -1,11 +1,5 @@
 <div content-loading="loadingProjects"></div>
 <div class="container-fluid">
-	<!--<div class="container-prev-next-project-details" style="border: 1px solid red; margin-top: 150px;">-->
-		<!--<ul>-->
-			<!--<li style="display: inline-block"><button class="btn btn-info" data-ng-click="gotoPrevProject()">Previous project</button></li>-->
-			<!--<li><button class="btn btn-info" data-ng-click="gotoNextProject()">Next project</button></li>-->
-		<!--</ul>-->
-	<!--</div>-->
 	<div class="container-portfolio-images-middle">
 		<project-images></project-images>
 	</div>
@@ -14,6 +8,13 @@
 			<!--new design starts here-->
 			<div class="col-sm-7 col-md-7 col-lg-7">
 				<h1 class="project-name">{{ portfolioDetail.name }}</h1>
+                <div class="container-prev-next-project-details">
+                    <ul>
+                        <li><span class="glyphicon glyphicon-chevron-left" data-ng-if="isPrevEnabled()" data-ng-click="gotoPrevProject()"></span></li>
+                        <li><span class="glyphicon glyphicon-chevron-right" data-ng-if="isNextEnabled()" data-ng-click="gotoNextProject()"></span></li>
+                    </ul>
+                </div>
+                <br class="clearFloats"/>
 				<p class="project-description-full">{{ portfolioDetail.description }}</p>
 			</div>
 			<div class="col-sm-5 col-md-5 col-lg-5 container-github-online-status">
@@ -21,29 +22,33 @@
 					<ul class="list-github-online-status">
 						<li><p class="project-category-identifier project-status">STATUS: <a href="{{ portfolioDetail.projectWebLink }}" target="_blank">ONLINE</a></p></li>
 						<li><p class="project-category-identifier project-status"><a href="{{ portfolioDetail.projectGitHubLink }}" target="_blank"><i class="fa fa-github-square"></i> VIEW ON GITHUB</a></p></li>
+                        <li><p class="project-category-identifier project-status">PROJECT CATEGORY: {{ portfolioDetail.type | makeUppercase }}</p></li>
 					</ul>
 				</div>
 				<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.projectGitHubLink.length > 0 && portfolioDetail.type != 'graphic design'">
 					<ul class="list-github-online-status">
 						<li><p class="project-category-identifier project-status"><a href="{{ portfolioDetail.projectGitHubLink }}" target="_blank"><i class="fa fa-github-square"></i> VIEW ON GITHUB</a></p></li>
+                        <li><p class="project-category-identifier project-status">PROJECT CATEGORY: {{ portfolioDetail.type | makeUppercase }}</p></li>
 					</ul>
 				</div>
 				<div ng-if="portfolioDetail.projectWebLink.length > 0 && portfolioDetail.projectGitHubLink == 0 && portfolioDetail.type != 'graphic design'" >
 					<ul class="list-github-online-status">
 						<li><p class="project-category-identifier project-status">STATUS: <a href="{{ portfolioDetail.projectWebLink }}" target="_blank">ONLINE</a></p></li>
+                        <li><p class="project-category-identifier project-status">PROJECT CATEGORY: {{ portfolioDetail.type | makeUppercase }}</p></li>
 					</ul>
 				</div>
 				<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.projectGitHubLink == 0 && portfolioDetail.type != 'graphic design'">
-					<p class="project-category-identifier">Status: Offline</p>
+                    <ul class="list-github-online-status">
+                        <li><p class="project-category-identifier">Status: Offline</p></li>
+                        <li><p class="project-category-identifier project-status">PROJECT CATEGORY: {{ portfolioDetail.type | makeUppercase }}</p></li>
+                    </ul>
 				</div>
+                <div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.type == 'graphic design'">
+                    <p class="project-category-identifier">{{ portfolioDetail.type | makeUppercase }}</p>
+                </div>
 				<div ng-repeat="technology in portfolioDetail.technologiesUsed" class="col-xs-2 col-sm-2 col-md-6 technology-used">
 					<p class="technology-used-text">{{ technology }}</p>
 				</div>
-			</div>
-
-
-			<div ng-if="portfolioDetail.projectWebLink.length == 0 && portfolioDetail.type == 'graphic design'">
-				<p class="project-category-identifier">Graphic Design Project</p>
 			</div>
 		</div>
 

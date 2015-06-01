@@ -126,7 +126,23 @@ h1.project-name{
     font-weight: bold;
     font-size: 80px;
     padding-top: 30px;
-    color: #525252
+    color: #525252;
+    float:left;
+}
+
+.container-prev-next-project-details {
+    float: right;
+    position: relative;
+    top: 70px;
+    right: 30px;
+    -webkit-animation: 1.0s flipInX ease;
+    -moz-animation: 0.5s flipInX ease;
+    -o-animation: 0.5s flipInX ease;
+    animation: 0.5s flipInX ease;
+}
+
+.container-prev-next-project-details ul li {
+    display: inline-block;
 }
 
 p.project-description-full{
@@ -139,12 +155,13 @@ p.project-description-full{
 }
 
 .list-github-online-status{
-    margin: 0;
+    margin-top: -12px;
     padding: 0
 }
 
 .list-github-online-status li {
     display: inline-block;
+    margin-right: 10px;
 }
 
 .list-github-online-status li a{

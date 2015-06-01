@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module('cristiandrincu.portfolio.controllers', [])
-	.controller('PortfolioController', ['$state', '$stateParams', '$scope', 'Portfolio', '$location', 'Lightbox', function ($state, $stateParams, $scope, Portfolio) {
+	.controller('PortfolioController', ['$state', '$stateParams', '$scope', 'Portfolio', '$location', 'Lightbox', '$localStorage', function ($state, $stateParams, $scope, Portfolio, Lightbox, $localStorage) {
 		$scope.loadingProjects = true;
 		$scope.portfolioType = $stateParams.type;
 		$scope.portfolioYear = $stateParams.year;
@@ -34,31 +34,45 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 		init();
 
 	}])
-	.controller('PortfolioDetailsController', ['$stateParams', '$scope', 'Portfolio', 'Lightbox', function ($stateParams, $scope, Portfolio, Lightbox) {
+	.controller('PortfolioDetailsController', ['$stateParams', '$state', '$scope', 'Portfolio', 'Lightbox', '$localStorage', function ($stateParams, $state, $scope, Portfolio, Lightbox, $localStorage) {
 
 		$scope.loadingProjects = true;
+        var projectsIds = [];
 
 		function initProjectDetails () {
+
 			$scope.portfolioDetail = Portfolio.get({id: $stateParams.id}, function(project){
 				$scope.loadingProjects = false;
 				return project;
 			});
+
+            Portfolio.query(function(projects){
+                $localStorage.projectsIds = projects.map(function(project) {
+                    return project._id;
+                });
+            });
+
+            projectsIds = $localStorage.projectsIds;
 		}
 
 		$scope.isPrevEnabled = function () {
-
+            return projectsIds.indexOf($stateParams.id) > 0;
 		};
 
 		$scope.isNextEnabled = function () {
-
+            return projectsIds.indexOf($stateParams.id) < projectsIds.length - 1;
 		};
 
 		$scope.gotoPrevProject = function () {
-
+            $state.go('allProjects.projectDetail', {
+                id: projectsIds[projectsIds.indexOf($stateParams.id) - 1]
+            });
 		};
 
 		$scope.gotoNextProject = function () {
-
+            $state.go('allProjects.projectDetail', {
+                id: projectsIds[projectsIds.indexOf($stateParams.id) + 1]
+            });
 		};
 
 		//this refers to the controller in our case. when using this inside a $scope function, this refers to the $scope
@@ -81,4 +95,9 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 
 		initProjectDetails();
 
-	}]);
+	}])
+    .filter('makeUppercase', function () {
+        return function(item) {
+            return item.toUpperCase();
+        }
+    })
