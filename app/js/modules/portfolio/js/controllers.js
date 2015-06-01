@@ -37,14 +37,18 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 	.controller('PortfolioDetailsController', ['$stateParams', '$state', '$scope', 'Portfolio', 'Lightbox', 'projects', function ($stateParams, $state, $scope, Portfolio, Lightbox, projects) {
 
 		$scope.loadingProjects = true;
-        var projectsIds = [];
 
         function getProjectIds() {
-            projectsIds = projects.map(function(project) {
-                return project._id;
-            });
+            var projectsIds = [];
+            var getProjects = function () {
+                projectsIds = projects.map(function(project) {
+                    return project._id;
+                });
 
-            return projectsIds;
+                return projectsIds;
+            };
+
+            return getProjects();
         }
 
 		function initProjectDetails () {
@@ -52,9 +56,9 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 				$scope.loadingProjects = false;
 				return project;
 			});
-
-            getProjectIds();
 		}
+
+        var projectsIds = getProjectIds();
 
 		$scope.isPrevEnabled = function () {
             return projectsIds.indexOf($stateParams.id) > 0;
