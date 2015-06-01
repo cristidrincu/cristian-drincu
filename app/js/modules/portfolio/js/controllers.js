@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module('cristiandrincu.portfolio.controllers', [])
-	.controller('PortfolioController', ['$state', '$stateParams', '$scope', 'Portfolio', '$location', 'Lightbox', '$localStorage', function ($state, $stateParams, $scope, Portfolio, Lightbox, $localStorage) {
+	.controller('PortfolioController', ['$state', '$stateParams', '$scope', 'Portfolio', '$location', 'Lightbox', function ($state, $stateParams, $scope, Portfolio, Lightbox) {
 		$scope.loadingProjects = true;
 		$scope.portfolioType = $stateParams.type;
 		$scope.portfolioYear = $stateParams.year;
@@ -34,25 +34,26 @@ angular.module('cristiandrincu.portfolio.controllers', [])
 		init();
 
 	}])
-	.controller('PortfolioDetailsController', ['$stateParams', '$state', '$scope', 'Portfolio', 'Lightbox', '$localStorage', function ($stateParams, $state, $scope, Portfolio, Lightbox, $localStorage) {
+	.controller('PortfolioDetailsController', ['$stateParams', '$state', '$scope', 'Portfolio', 'Lightbox', 'projects', function ($stateParams, $state, $scope, Portfolio, Lightbox, projects) {
 
 		$scope.loadingProjects = true;
         var projectsIds = [];
 
-		function initProjectDetails () {
+        function getProjectIds() {
+            projectsIds = projects.map(function(project) {
+                return project._id;
+            });
 
+            return projectsIds;
+        }
+
+		function initProjectDetails () {
 			$scope.portfolioDetail = Portfolio.get({id: $stateParams.id}, function(project){
 				$scope.loadingProjects = false;
 				return project;
 			});
 
-            Portfolio.query(function(projects){
-                $localStorage.projectsIds = projects.map(function(project) {
-                    return project._id;
-                });
-            });
-
-            projectsIds = $localStorage.projectsIds;
+            getProjectIds();
 		}
 
 		$scope.isPrevEnabled = function () {

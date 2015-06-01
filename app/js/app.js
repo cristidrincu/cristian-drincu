@@ -8,8 +8,7 @@ angular.module('cristiandrincu',
 		'cristiandrincu.teamModule',
 		'cristiandrincu.portfolioModule',
 		'cristiandrincu.contactModule',
-		'bootstrapLightbox',
-        'ngStorage'
+		'bootstrapLightbox'
 	])
 	.run(['$state', function($state){
 		$state.go('homePage');

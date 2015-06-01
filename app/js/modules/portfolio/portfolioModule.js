@@ -19,6 +19,12 @@ angular.module('cristiandrincu.portfolioModule', [
 		}).state('allProjects.projectDetail', {
 				url: '/project-detail/:id',
 				templateUrl: 'js/modules/portfolio/views/portfolio-details.html',
-				controller: 'PortfolioDetailsController'
+				controller: 'PortfolioDetailsController',
+                resolve: {
+                    projects: ['Portfolio', function(Portfolio) {
+                        //by adding $promise, ui-router will make sure that the data is completely resolved before the controller is executed.
+                        return Portfolio.query().$promise;
+                    }]
+                }
 		});
 	}]);
