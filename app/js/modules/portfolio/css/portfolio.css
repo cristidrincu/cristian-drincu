@@ -164,7 +164,7 @@ p.project-description-full{
     margin-right: 10px;
 }
 
-.list-github-online-status li a{
+.list-github-online-status li a.default-link{
     color: #525252;
 }
 
@@ -202,5 +202,9 @@ p.project-description-full{
     color: #fff;
     float: right;
     margin-right: 100px;
+}
+
+.link-return-to-projects {
+    color: #2ac5c7;
 }
 
