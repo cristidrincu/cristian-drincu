@@ -3,43 +3,70 @@
     <img src="assets/images/logo-cd-4-ver-2.png" alt="site-logo" />
   </div>
   <div class="cd-main-menu-container">
-    <ul class="cd-main-menu">
-      <li>
-        Home
-        <div class="cd-menu-section-description">
-          <p>Some dummy text that is really really small</p>
-          <p class="cd-menu-item-number-id">01</p>
-        </div>
-      </li>
-      <li>
-        About
-        <div class="cd-menu-section-description">
-          <p>Some dummy text that is really really small</p>
-          <p class="cd-menu-item-number-id">02</p>
-        </div>
-      </li>
-      <li>
-        Team
-        <div class="cd-menu-section-description">
-          <p>Some dummy text that is really really small</p>
-          <p class="cd-menu-item-number-id">03</p>
-        </div>
-      </li>
-      <li>
-        Portfolio
-        <div class="cd-menu-section-description">
-          <p>Some dummy text that is really really small</p>
-          <p class="cd-menu-item-number-id">04</p>
-        </div>
-      </li>
-      <li>
-        Contact
-        <div class="cd-menu-section-description">
-          <p>Some dummy text that is really really small</p>
-          <p class="cd-menu-item-number-id">05</p>
-        </div>
-      </li>
-    </ul>
+    <nav>
+      <ul class="cd-main-menu">
+        <li>
+          <a
+            routerLink="/"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Home</a
+          >
+          <div [ngClass]="linkDescriptionCSSClass(linkNames.HOME)">
+            <p>Some dummy text that is really really small</p>
+            <p class="cd-menu-item-number-id">01</p>
+          </div>
+        </li>
+        <li>
+          <a
+            routerLink="about-me"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >About</a
+          >
+          <div [ngClass]="linkDescriptionCSSClass(linkNames.ABOUT_ME)">
+            <p>Some dummy text that is really really small</p>
+            <p class="cd-menu-item-number-id">02</p>
+          </div>
+        </li>
+        <li>
+          <a
+            routerLink="team"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Team</a
+          >
+          <div [ngClass]="linkDescriptionCSSClass(linkNames.TEAM)">
+            <p>Some dummy text that is really really small</p>
+            <p class="cd-menu-item-number-id">03</p>
+          </div>
+        </li>
+        <li>
+          <a
+            routerLink="portfolio"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Portfolio</a
+          >
+          <div [ngClass]="linkDescriptionCSSClass(linkNames.PORTFOLIO)">
+            <p>Some dummy text that is really really small</p>
+            <p class="cd-menu-item-number-id">04</p>
+          </div>
+        </li>
+        <li>
+          <a
+            routerLink="contact"
+            routerLinkActive="active-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Contact</a
+          >
+          <div [ngClass]="linkDescriptionCSSClass(linkNames.CONTACT)">
+            <p>Some dummy text that is really really small</p>
+            <p class="cd-menu-item-number-id">05</p>
+          </div>
+        </li>
+      </ul>
+    </nav>
   </div>
 </div>
 <router-outlet></router-outlet>
