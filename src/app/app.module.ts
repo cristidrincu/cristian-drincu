@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
-import { TeamComponent } from './team/team.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
@@ -13,16 +13,12 @@ import { HomeComponent } from './home/home.component';
   declarations: [
     AppComponent,
     AboutComponent,
-    TeamComponent,
     PortfolioComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [CommonModule, BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

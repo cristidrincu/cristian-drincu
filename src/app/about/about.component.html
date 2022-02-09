@@ -1,1 +1,46 @@
-<p>about works!</p>
+<div class="cd-about-container">
+  <div class="cd-about-left-column">
+    <div class="cd-about-left-column-headers-container">
+      <h1>about me</h1>
+      <h3>I am Software Developer from Timisoara, Romania</h3>
+    </div>
+    <p>My name is: {{ name }}</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et rutrum
+      augue. Donec accumsan lobortis dui eu interdum. Nullam nibh metus, dictum
+      ac magna ut, facilisis semper urna. Suspendisse pellentesque ut lorem ut
+      accumsan.
+    </p>
+    <p>
+      Nunc aliquet sem ac elit congue mollis. Vestibulum ante ipsum primis in
+      faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse
+      sagittis dui nec lectus egestas mollis vitae a lectus.
+    </p>
+    <p>
+      Praesent tristique vestibulum diam, dignissim accumsan ante. Nunc iaculis
+      risus id diam aliquet auctor. Aliquam ut sem eget urna luctus bibendum eu
+      ut ex. Praesent quis vehicula lectus, eget malesuada nisl.
+    </p>
+  </div>
+  <div class="cd-about-right-column">
+    <div class="cd-about-right-column-headers-container">
+      <h1>timeline</h1>
+      <h3>A snapshot of my time</h3>
+    </div>
+    <div class="cd-about-timeline-cards-container">
+      <div
+        *ngFor="let project of timeline; let i = index"
+        class="cd-about-timeline-card"
+      >
+        <div class="cd-about-timeline-identifier">
+          <h1>{{ i + 1 }}</h1>
+        </div>
+        <p>{{ project.year }}</p>
+        <p>
+          Praesent tristique vestibulum diam, dignissim accumsan ante. Nunc
+          iaculis risus id diam aliquet auctor.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
