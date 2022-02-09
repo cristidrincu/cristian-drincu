@@ -32,11 +32,15 @@
         *ngFor="let project of timeline; let i = index"
         class="cd-about-timeline-card"
       >
-        <div class="cd-about-timeline-identifier">
-          <h1>{{ i + 1 }}</h1>
-        </div>
-        <p>{{ project.year }}</p>
-        <p>
+        <!--        <div class="cd-about-timeline-identifier">-->
+        <!--          <h1>{{ i + 1 }}</h1>-->
+        <!--        </div>-->
+        <h1>{{ project.year }}</h1>
+        <p class="cd-about-timeline-card-introduction">
+          Praesent tristique vestibulum diam, dignissim accumsan ante. Nunc
+          iaculis risus id diam aliquet auctor.
+        </p>
+        <p class="cd-about-timeline-card-description">
           Praesent tristique vestibulum diam, dignissim accumsan ante. Nunc
           iaculis risus id diam aliquet auctor.
         </p>
